@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 06c30587dd3e2654b903ad0f13945157
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2797387083153479052
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_0
+  - first:
+      213: 4089620014639021866
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_1
+  - first:
+      213: -4874997298370065332
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_2
+  - first:
+      213: 5899734047055093653
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_3
+  - first:
+      213: -2372431258074938559
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_4
+  - first:
+      213: 1216587693260585554
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_5
+  - first:
+      213: -4801833218154546466
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_6
+  - first:
+      213: -3567517376928769208
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_7
+  - first:
+      213: -3547604274878304249
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_8
+  - first:
+      213: 4233510219025694039
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_9
+  - first:
+      213: -6063869270048457593
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_10
+  - first:
+      213: 4168606940322116671
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_11
+  - first:
+      213: -7869397218234576824
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_12
+  - first:
+      213: 6994566372084480199
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_13
+  - first:
+      213: -2209887272766870931
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_14
+  - first:
+      213: -8051549441110377402
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_15
+  - first:
+      213: 6079580305967952661
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_16
+  - first:
+      213: -6234924045096240808
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_17
+  - first:
+      213: 6709952395464555015
+    second: Tileset Terrain (16x16)_scaled_8x_pngcrushed_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 927
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78abc69803dfc434eac90f57278d959a
+      internalID: -685238337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 927
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ef94fa428b1c94489b69f44aaea8d0
+      internalID: -322860405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 927
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e738b359de48f4aa8af7f743db4c95
+      internalID: -1687767027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_3
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 927
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0aeb26ee9ad7684dbef76de06ec7454
+      internalID: 1881474462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_4
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 927
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2dd241b17424b4598cfe625a053034
+      internalID: -1694362853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_5
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 927
+        width: 132
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ce1da8c66d7a64586caa9c92fcefd3
+      internalID: -942002806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_6
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 927
+        width: 115
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f34bb0436f5124a9f59cbd9028aef2
+      internalID: -1931442138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_7
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 927
+        width: 115
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1fd92336dbfc84488052ecbafdae3e
+      internalID: 1612750679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 671
+        width: 130
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde8719245438834292e9f5ba1aed7dd
+      internalID: 1762222277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 671
+        width: 130
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df23382ded0d4464b8b9bcea59a93d77
+      internalID: -129751035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_10
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 671
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9290f3da6f5170a47a548a5c10fa3403
+      internalID: -127666271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_11
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 671
+        width: 130
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5ef0ed6cf0db24b942b3be8bc7b48b
+      internalID: -628104868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_12
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 671
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803b8237b1498754ab8a30f7f95db2a8
+      internalID: -1302489834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_13
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 671
+        width: 132
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9dd58809ca6ed4eb28149d46e4951c
+      internalID: 1537410767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_14
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 671
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e99176e780d4741bc70807868ada30
+      internalID: 1826289974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_15
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 671
+        width: 132
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a3adcd35bb5de4f87c1deae0d1a78f
+      internalID: 630032559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 414
+        width: 259
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba330a004f944c448db126a6ebdb60d
+      internalID: -1720151958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_17
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 487
+        width: 131
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54904170e755ba345b3a82d5febbce91
+      internalID: 745828705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Terrain (16x16)_scaled_8x_pngcrushed_18
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 478
+        width: 130
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb4c05cd17e46240a5fa7e951b9b0d8
+      internalID: -1256242042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c7770b7982141af42ac49acb207a5b2f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_0: -685238337
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_1: -322860405
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_10: -127666271
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_11: -628104868
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_12: -1302489834
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_13: 1537410767
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_14: 1826289974
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_15: 630032559
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_16: -1720151958
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_17: 745828705
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_18: -1256242042
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_2: -1687767027
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_3: 1881474462
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_4: -1694362853
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_5: -942002806
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_6: -1931442138
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_7: 1612750679
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_8: 1762222277
+      Tileset Terrain (16x16)_scaled_8x_pngcrushed_9: -129751035
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
