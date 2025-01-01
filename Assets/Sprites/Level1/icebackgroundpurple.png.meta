@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 35b10802a258f504a93822903c0d791b
+guid: 69481603a5185e247a17252723cc0927
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7482667652216324306
-    second: Square_0
+      213: -5759642847315400295
+    second: icebackgroundpurple_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Square_0
+      name: icebackgroundpurple_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
-        height: 512
+        width: 2556
+        height: 1440
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d009a6b596c7d760800000000000000
-      internalID: 7482667652216324306
+      spriteID: 99965a4a853a110b0800000000000000
+      internalID: -5759642847315400295
       vertices: []
       indices: 
       edges: []
