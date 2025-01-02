@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private bool grounded;
     public bool canMove = true;
+    public bool canAttack = true;
     
 
 

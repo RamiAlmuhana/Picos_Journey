@@ -8,6 +8,7 @@ public class BattleSystem : MonoBehaviour
     public TMP_Text dialogueText;
     public GameObject dialoguePanel;
     public PlayerMovement playerMovementScript;
+    public Animator animator;
     
     void Start()
     {
@@ -35,14 +36,16 @@ public class BattleSystem : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            animator.SetBool("run", false);
+            animator.SetBool("grounded", true);
             dialoguePanel.SetActive(true);
             playerMovementScript.canMove = false;
-            Debug.Log("Player entered");
-            dialogueText.text =  "Whats happening?";
+            
+            dialogueText.text =  "Hi friend, do you know why the ice is smelting?";
         
             yield return new WaitForSeconds(3f);
         
-            dialogueText.text =  "Why is the ice smelting?";
+            dialogueText.text =  "Hi Pico, the ice is smelting because of a person who is causing climate disruptions toward the north.";
             
             yield return new WaitForSeconds(3f);
             

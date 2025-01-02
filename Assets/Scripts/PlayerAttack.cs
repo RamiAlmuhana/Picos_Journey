@@ -18,7 +18,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        if (playerMovement.canMove == false)
+        if (playerMovement.canMove == false && playerMovement.canAttack == false)
         {
             return;
         }
@@ -27,7 +27,7 @@ public class PlayerAttack : MonoBehaviour
             Attack();
         }
 
-
+        cooldownTimer += Time.deltaTime;
     }
 
     private void Attack()
