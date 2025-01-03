@@ -65,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
         body.linearVelocity = new Vector2(body.linearVelocity.x, jumpForce);
         if (hasAK)
         {
-            anim.SetBool("hasAK", true);
+            anim.SetBool("HasAK", true);
         }
         else
         {

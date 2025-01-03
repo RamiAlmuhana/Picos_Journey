@@ -1,38 +1,30 @@
-
-using System;
-
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    [SerializeField]
-    private float speed;
+    [SerializeField] private float speed = 10f;
     private float direction;
     private bool hit;
     private float lifeTime;
-    
-    private BoxCollider2D boxCollider;
-    private Animator anim;
 
+    private BoxCollider2D boxCollider;
 
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
-        anim = GetComponent<Animator>();
     }
 
     private void Update()
     {
         if (hit) return;
         
-        float movementSpeed = speed * Time.deltaTime * direction;
+        float movementSpeed = speed * Time.deltaTime * -direction;
         transform.Translate(movementSpeed, 0, 0);
         
         lifeTime += Time.deltaTime;
-
-        if (lifeTime > 5)
+        if (lifeTime > 5f)
         {
-            gameObject.SetActive(false);
+            Destroy(gameObject);
         }
     }
 
@@ -40,30 +32,17 @@ public class Projectile : MonoBehaviour
     {
         hit = true;
         boxCollider.enabled = false;
-        anim.SetTrigger("explode");
+        
+        Destroy(gameObject);
     }
 
     public void SetDirection(float _direction)
     {
-        lifeTime = 0;
         direction = _direction;
-        gameObject.SetActive(true);
         hit = false;
         boxCollider.enabled = true;
         
-        float localScaleX = transform.localScale.x;
-
-        if (Mathf.Sign(localScaleX) != _direction)
-        {
-            localScaleX = -localScaleX;
-        }
-        
+        float localScaleX = Mathf.Abs(transform.localScale.x) * _direction;
         transform.localScale = new Vector3(localScaleX, transform.localScale.y, transform.localScale.z);
     }
-
-    private void Deactivate()
-    {
-        gameObject.SetActive(false);
-    }
-    
 }
