@@ -22,6 +22,16 @@ public class PlayerAttack : MonoBehaviour
         {
             return;
         }
+
+        if (playerMovement.hasAK)
+        {
+            playerMovement.canAttack = true;
+        }
+        else
+        {
+            return;
+        }
+        
         if (Input.GetMouseButton(0) && cooldownTimer > attackCooldown && playerMovement.IsGrounded())
         {
             Attack();
