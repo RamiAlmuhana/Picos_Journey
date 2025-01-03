@@ -23,7 +23,7 @@ public class BattleSystem : MonoBehaviour
         
         yield return new WaitForSeconds(3f);
         
-        dialogueText.text =  "Why is the ice smelting?";
+        dialogueText.text =  "Why is the ice melting?";
         
         yield return new WaitForSeconds(3f);
         
@@ -41,13 +41,13 @@ public class BattleSystem : MonoBehaviour
             dialoguePanel.SetActive(true);
             playerMovementScript.canMove = false;
             
-            dialogueText.text =  "Hi friend, do you know why the ice is smelting?";
+            dialogueText.text =  "Hi friend, do you know why the ice is melting?";
         
             yield return new WaitForSeconds(3f);
         
-            dialogueText.text =  "Hi Pico, the ice is smelting because of a person who is causing climate disruptions toward the north.";
+            dialogueText.text =  "Hi Pico, the ice is melting because of a person who is causing climate disruptions toward the north.";
             
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(6f);
             
             dialoguePanel.SetActive(false);
         
