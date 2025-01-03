@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -44,5 +45,10 @@ public class Projectile : MonoBehaviour
         
         float localScaleX = Mathf.Abs(transform.localScale.x) * _direction;
         transform.localScale = new Vector3(localScaleX, transform.localScale.y, transform.localScale.z);
+    }
+
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
     }
 }
