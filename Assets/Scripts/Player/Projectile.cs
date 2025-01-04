@@ -9,6 +9,8 @@ public class Projectile : MonoBehaviour
     private float lifeTime;
 
     private BoxCollider2D boxCollider;
+    
+    public float damage;
 
     private void Awake()
     {
@@ -33,7 +35,21 @@ public class Projectile : MonoBehaviour
     {
         hit = true;
         boxCollider.enabled = false;
-        
+
+        EnemyHealth enemyHealth = collision.gameObject.GetComponent<EnemyHealth>();
+
+        if (enemyHealth != null) 
+        {
+            if (enemyHealth.enemyHealth <= 0)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                enemyHealth.enemyHealth -= damage;
+            }
+        }
+
         Destroy(gameObject);
     }
 
