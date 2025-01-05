@@ -4,7 +4,7 @@ public class EnemyBullet : MonoBehaviour
 {
     private GameObject Player;
     
-    private Rigidbody2D rigidbody;
+    private Rigidbody2D rb;
     
     private float timer;
 
@@ -15,11 +15,11 @@ public class EnemyBullet : MonoBehaviour
     
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         Player = GameObject.FindGameObjectWithTag("Player");
         
         Vector3 direction = Player.transform.position - transform.position;
-        rigidbody.linearVelocity = new Vector2(direction.x, direction.y).normalized * force;
+        rb.linearVelocity = new Vector2(direction.x, direction.y).normalized * force;
         
         float rot = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rot + 90);

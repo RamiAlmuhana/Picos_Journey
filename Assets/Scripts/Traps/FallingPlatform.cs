@@ -22,7 +22,7 @@ public class FallingPlatform : MonoBehaviour
 
     private void Fall()
     {
-        rb.isKinematic = false;
+        rb.bodyType = RigidbodyType2D.Dynamic;
         Destroy(gameObject, destroyDelay); 
     }
 }

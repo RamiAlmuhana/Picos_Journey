@@ -6,6 +6,8 @@ public class EnemyShooting : MonoBehaviour
     public GameObject bullet;
     public Transform bulletPosition;
     private GameObject player;
+    [SerializeField]
+    private float enemyRange;
     
     private float timer;
     void Start()
@@ -18,8 +20,8 @@ public class EnemyShooting : MonoBehaviour
         
         
         float distance = Vector2.Distance(transform.position, player.transform.position);
-        Debug.Log(distance);
-        if (distance < 10)
+        // Debug.Log(distance);
+        if (distance < enemyRange)
         {
             FacePlayer();
             
