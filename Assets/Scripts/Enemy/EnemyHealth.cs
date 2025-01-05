@@ -1,23 +1,23 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
     public float enemyHealth;
     public float maxHealth;
-    public Image healthBar;
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private HealthBarController healthBarController;
+
     void Start()
     {
         maxHealth = enemyHealth;
+        healthBarController = GetComponentInChildren<HealthBarController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        healthBar.fillAmount = Mathf.Clamp(enemyHealth / maxHealth, 0, 1);
+        if (healthBarController != null)
+        {
+            healthBarController.UpdateHealthBar(enemyHealth, maxHealth);
+        }
 
         if (enemyHealth <= 0)
         {

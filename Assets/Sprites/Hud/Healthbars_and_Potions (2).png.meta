@@ -1,0 +1,1846 @@
+fileFormatVersion: 2
+guid: fc2bfac65051b184d96cefed4f00a5ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3486775721945687541
+    second: Healthbars_and_Potions (2)_0
+  - first:
+      213: 1781786497565971085
+    second: Healthbars_and_Potions (2)_1
+  - first:
+      213: 7744160289539364607
+    second: Healthbars_and_Potions (2)_2
+  - first:
+      213: 3679661294395792164
+    second: Healthbars_and_Potions (2)_3
+  - first:
+      213: -7299161206179466759
+    second: Healthbars_and_Potions (2)_4
+  - first:
+      213: -1131173496682392742
+    second: Healthbars_and_Potions (2)_5
+  - first:
+      213: 7164752843240659235
+    second: Healthbars_and_Potions (2)_6
+  - first:
+      213: 1036719790859189713
+    second: Healthbars_and_Potions (2)_7
+  - first:
+      213: 7227908683337781423
+    second: Healthbars_and_Potions (2)_8
+  - first:
+      213: 5633925906254371044
+    second: Healthbars_and_Potions (2)_9
+  - first:
+      213: -8794957644140006059
+    second: Healthbars_and_Potions (2)_10
+  - first:
+      213: 3891431881341960958
+    second: Healthbars_and_Potions (2)_11
+  - first:
+      213: -8047878335813497787
+    second: Healthbars_and_Potions (2)_12
+  - first:
+      213: 81413701486327164
+    second: Healthbars_and_Potions (2)_13
+  - first:
+      213: -5178322191787847229
+    second: Healthbars_and_Potions (2)_14
+  - first:
+      213: 2458704668199974773
+    second: Healthbars_and_Potions (2)_15
+  - first:
+      213: 6289659913534626939
+    second: Healthbars_and_Potions (2)_16
+  - first:
+      213: 797631665737422917
+    second: Healthbars_and_Potions (2)_17
+  - first:
+      213: 301374729966306868
+    second: Healthbars_and_Potions (2)_18
+  - first:
+      213: -1209078590605935517
+    second: Healthbars_and_Potions (2)_19
+  - first:
+      213: 8918495163413313985
+    second: Healthbars_and_Potions (2)_20
+  - first:
+      213: -4726152654574268388
+    second: Healthbars_and_Potions (2)_21
+  - first:
+      213: 8828022302036008218
+    second: Healthbars_and_Potions (2)_22
+  - first:
+      213: -3539801660738961593
+    second: Healthbars_and_Potions (2)_23
+  - first:
+      213: -6533439246210361365
+    second: Healthbars_and_Potions (2)_24
+  - first:
+      213: -509616120073731081
+    second: Healthbars_and_Potions (2)_25
+  - first:
+      213: 1778609194150958727
+    second: Healthbars_and_Potions (2)_26
+  - first:
+      213: -1884177204070375629
+    second: Healthbars_and_Potions (2)_27
+  - first:
+      213: -1607930240023082349
+    second: Healthbars_and_Potions (2)_28
+  - first:
+      213: -3721855253887584915
+    second: Healthbars_and_Potions (2)_29
+  - first:
+      213: 7140777534984294614
+    second: Healthbars_and_Potions (2)_30
+  - first:
+      213: -1028434646701445325
+    second: Healthbars_and_Potions (2)_31
+  - first:
+      213: 2931984524456980006
+    second: Healthbars_and_Potions (2)_32
+  - first:
+      213: -2808903985339541990
+    second: Healthbars_and_Potions (2)_33
+  - first:
+      213: 6371919558814279288
+    second: Healthbars_and_Potions (2)_34
+  - first:
+      213: 68112354080277791
+    second: Healthbars_and_Potions (2)_35
+  - first:
+      213: 6380902085821201804
+    second: Healthbars_and_Potions (2)_36
+  - first:
+      213: 7364432057336977293
+    second: Healthbars_and_Potions (2)_37
+  - first:
+      213: 8338811715562277098
+    second: Healthbars_and_Potions (2)_38
+  - first:
+      213: 7011098337272158705
+    second: Healthbars_and_Potions (2)_39
+  - first:
+      213: 4170461180228941036
+    second: Healthbars_and_Potions (2)_40
+  - first:
+      213: -9088194054079990143
+    second: Healthbars_and_Potions (2)_41
+  - first:
+      213: 7385284831335602153
+    second: Healthbars_and_Potions (2)_42
+  - first:
+      213: 8306860631929562287
+    second: Healthbars_and_Potions (2)_43
+  - first:
+      213: 7684623437469656469
+    second: Healthbars_and_Potions (2)_44
+  - first:
+      213: 6378232933003156454
+    second: Healthbars_and_Potions (2)_45
+  - first:
+      213: -8350230006568645300
+    second: Healthbars_and_Potions (2)_46
+  - first:
+      213: 5597026562422898037
+    second: Healthbars_and_Potions (2)_47
+  - first:
+      213: -114286672029165274
+    second: Healthbars_and_Potions (2)_48
+  - first:
+      213: 4207801080834012032
+    second: Healthbars_and_Potions (2)_49
+  - first:
+      213: -8726513696882734788
+    second: Healthbars_and_Potions (2)_50
+  - first:
+      213: -5421356385436317322
+    second: Healthbars_and_Potions (2)_51
+  - first:
+      213: 3380162249183726544
+    second: Healthbars_and_Potions (2)_52
+  - first:
+      213: -2092914017947538082
+    second: Healthbars_and_Potions (2)_53
+  - first:
+      213: -2470062722989448464
+    second: Healthbars_and_Potions (2)_54
+  - first:
+      213: 7620449628513257677
+    second: Healthbars_and_Potions (2)_55
+  - first:
+      213: 4594801014483903697
+    second: Healthbars_and_Potions (2)_56
+  - first:
+      213: -9111925794814625234
+    second: Healthbars_and_Potions (2)_57
+  - first:
+      213: 4674367453898065157
+    second: Healthbars_and_Potions (2)_58
+  - first:
+      213: -8748964644361660253
+    second: Healthbars_and_Potions (2)_59
+  - first:
+      213: -8753302788172855387
+    second: Healthbars_and_Potions (2)_60
+  - first:
+      213: 6072671078146192151
+    second: Healthbars_and_Potions (2)_61
+  - first:
+      213: -8945947661923554110
+    second: Healthbars_and_Potions (2)_62
+  - first:
+      213: -4534457148347492636
+    second: Healthbars_and_Potions (2)_63
+  - first:
+      213: 6316933921901416558
+    second: Healthbars_and_Potions (2)_64
+  - first:
+      213: -6580255835223206942
+    second: Healthbars_and_Potions (2)_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5670e9b04836030800000000000000
+      internalID: 3486775721945687541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 119
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82d105116d2ab810800000000000000
+      internalID: 1781786497565971085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 119
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff61ea5c0c8c87b60800000000000000
+      internalID: 7744160289539364607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 119
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b173a9378c01330800000000000000
+      internalID: 3679661294395792164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f17c5b3e8b24ba90800000000000000
+      internalID: -7299161206179466759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 110
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53d8eea2b34d40f0800000000000000
+      internalID: -1131173496682392742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 110
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32954dc10c05e6360800000000000000
+      internalID: 7164752843240659235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_7
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 110
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd77c1382b236e00800000000000000
+      internalID: 1036719790859189713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa05f4307a0be4460800000000000000
+      internalID: 7227908683337781423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 101
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8992d03c9bf2e40800000000000000
+      internalID: 5633925906254371044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 101
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555bd6ece9802f580800000000000000
+      internalID: -8794957644140006059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 101
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2840bada4210630800000000000000
+      internalID: 3891431881341960958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c46460b41305090800000000000000
+      internalID: -8047878335813497787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_13
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 92
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7531f4845d312100800000000000000
+      internalID: 81413701486327164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 92
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c196f90767e228b0800000000000000
+      internalID: -5178322191787847229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_15
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 92
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57777a37ed21f1220800000000000000
+      internalID: 2458704668199974773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cde380e5c594750800000000000000
+      internalID: 6289659913534626939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_17
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 83
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548d1e126c1c11b00800000000000000
+      internalID: 797631665737422917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 83
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436cbeb58b2be2400800000000000000
+      internalID: 301374729966306868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_19
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 83
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c37658d6d783fe0800000000000000
+      internalID: -1209078590605935517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c93a42591cd4cb70800000000000000
+      internalID: 8918495163413313985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_21
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 74
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10d4dd6335596eb0800000000000000
+      internalID: -4726152654574268388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 74
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d1516c28f638a70800000000000000
+      internalID: 8828022302036008218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_23
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 74
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ff05ce42910eec0800000000000000
+      internalID: -3539801660738961593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be719080f9f8455a0800000000000000
+      internalID: -6533439246210361365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_25
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 65
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3413fb6da7de8f0800000000000000
+      internalID: -509616120073731081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 65
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7869c9b73a3eea810800000000000000
+      internalID: 1778609194150958727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_27
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f1f71d0de0ad5e0800000000000000
+      internalID: -1884177204070375629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ac0d347fb7fa9e0800000000000000
+      internalID: -1607930240023082349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 56
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65fb96ad50595cc0800000000000000
+      internalID: -3721855253887584915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 56
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d014d8a553291360800000000000000
+      internalID: 7140777534984294614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 56
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fe7a043244ab1f0800000000000000
+      internalID: -1028434646701445325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e6333046080b820800000000000000
+      internalID: 2931984524456980006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_33
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 47
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1658a125b4c409d0800000000000000
+      internalID: -2808903985339541990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_34
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 47
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8762d70341b9d6850800000000000000
+      internalID: 6371919558814279288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_35
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 47
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1545cd33dbf1f000800000000000000
+      internalID: 68112354080277791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8dfbebb3a48d8850800000000000000
+      internalID: 6380902085821201804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_37
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 38
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87d11e00f7b33660800000000000000
+      internalID: 7364432057336977293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_38
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 38
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae884fa031969b370800000000000000
+      internalID: 8338811715562277098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_39
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 38
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f950769acc6c4160800000000000000
+      internalID: 7011098337272158705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce43a1de85470e930800000000000000
+      internalID: 4170461180228941036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_41
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 26
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186bebcb8af30e180800000000000000
+      internalID: -9088194054079990143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_42
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7d6d8dc6dcd7660800000000000000
+      internalID: 7385284831335602153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_43
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 26
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4a6dcabb5e74370800000000000000
+      internalID: 8306860631929562287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_44
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595250f2d4445aa60800000000000000
+      internalID: 7684623437469656469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_45
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebd95a2f09048850800000000000000
+      internalID: 6378232933003156454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d0ba9ec060e1c80800000000000000
+      internalID: -8350230006568645300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_47
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d74a31102acad40800000000000000
+      internalID: 5597026562422898037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_48
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629d32790e8f96ef0800000000000000
+      internalID: -114286672029165274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_49
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083bd940acc156a30800000000000000
+      internalID: 4207801080834012032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3949b9170235e680800000000000000
+      internalID: -8726513696882734788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_51
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 15
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679c54d471973c4b0800000000000000
+      internalID: -5421356385436317322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_52
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 15
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db08c128afb8ee20800000000000000
+      internalID: 3380162249183726544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_53
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 15
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d2dc61ac974f2e0800000000000000
+      internalID: -2092914017947538082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_54
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2a7475a0398bdd0800000000000000
+      internalID: -2470062722989448464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_55
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc84a40ff8641c960800000000000000
+      internalID: 7620449628513257677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_56
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4eae9ad2304cf30800000000000000
+      internalID: 4594801014483903697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_57
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2afa5444cfeb8180800000000000000
+      internalID: -9111925794814625234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_58
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505cd37fe60bed040800000000000000
+      internalID: 4674367453898065157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_59
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a81f5c820f659680800000000000000
+      internalID: -8748964644361660253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7458bbd75068680800000000000000
+      internalID: -8753302788172855387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_61
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71331b2db26764450800000000000000
+      internalID: 6072671078146192151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_62
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc6fc7cffb99d380800000000000000
+      internalID: -8945947661923554110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_63
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e654878f3f5211c0800000000000000
+      internalID: -4534457148347492636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_64
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e609c84fee14aa750800000000000000
+      internalID: 6316933921901416558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_and_Potions (2)_65
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3545a7e2c3ea4a0800000000000000
+      internalID: -6580255835223206942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e090dcc989c5854aaeef3f75608115a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Healthbars_and_Potions (2)_0: 3486775721945687541
+      Healthbars_and_Potions (2)_1: 1781786497565971085
+      Healthbars_and_Potions (2)_10: -8794957644140006059
+      Healthbars_and_Potions (2)_11: 3891431881341960958
+      Healthbars_and_Potions (2)_12: -8047878335813497787
+      Healthbars_and_Potions (2)_13: 81413701486327164
+      Healthbars_and_Potions (2)_14: -5178322191787847229
+      Healthbars_and_Potions (2)_15: 2458704668199974773
+      Healthbars_and_Potions (2)_16: 6289659913534626939
+      Healthbars_and_Potions (2)_17: 797631665737422917
+      Healthbars_and_Potions (2)_18: 301374729966306868
+      Healthbars_and_Potions (2)_19: -1209078590605935517
+      Healthbars_and_Potions (2)_2: 7744160289539364607
+      Healthbars_and_Potions (2)_20: 8918495163413313985
+      Healthbars_and_Potions (2)_21: -4726152654574268388
+      Healthbars_and_Potions (2)_22: 8828022302036008218
+      Healthbars_and_Potions (2)_23: -3539801660738961593
+      Healthbars_and_Potions (2)_24: -6533439246210361365
+      Healthbars_and_Potions (2)_25: -509616120073731081
+      Healthbars_and_Potions (2)_26: 1778609194150958727
+      Healthbars_and_Potions (2)_27: -1884177204070375629
+      Healthbars_and_Potions (2)_28: -1607930240023082349
+      Healthbars_and_Potions (2)_29: -3721855253887584915
+      Healthbars_and_Potions (2)_3: 3679661294395792164
+      Healthbars_and_Potions (2)_30: 7140777534984294614
+      Healthbars_and_Potions (2)_31: -1028434646701445325
+      Healthbars_and_Potions (2)_32: 2931984524456980006
+      Healthbars_and_Potions (2)_33: -2808903985339541990
+      Healthbars_and_Potions (2)_34: 6371919558814279288
+      Healthbars_and_Potions (2)_35: 68112354080277791
+      Healthbars_and_Potions (2)_36: 6380902085821201804
+      Healthbars_and_Potions (2)_37: 7364432057336977293
+      Healthbars_and_Potions (2)_38: 8338811715562277098
+      Healthbars_and_Potions (2)_39: 7011098337272158705
+      Healthbars_and_Potions (2)_4: -7299161206179466759
+      Healthbars_and_Potions (2)_40: 4170461180228941036
+      Healthbars_and_Potions (2)_41: -9088194054079990143
+      Healthbars_and_Potions (2)_42: 7385284831335602153
+      Healthbars_and_Potions (2)_43: 8306860631929562287
+      Healthbars_and_Potions (2)_44: 7684623437469656469
+      Healthbars_and_Potions (2)_45: 6378232933003156454
+      Healthbars_and_Potions (2)_46: -8350230006568645300
+      Healthbars_and_Potions (2)_47: 5597026562422898037
+      Healthbars_and_Potions (2)_48: -114286672029165274
+      Healthbars_and_Potions (2)_49: 4207801080834012032
+      Healthbars_and_Potions (2)_5: -1131173496682392742
+      Healthbars_and_Potions (2)_50: -8726513696882734788
+      Healthbars_and_Potions (2)_51: -5421356385436317322
+      Healthbars_and_Potions (2)_52: 3380162249183726544
+      Healthbars_and_Potions (2)_53: -2092914017947538082
+      Healthbars_and_Potions (2)_54: -2470062722989448464
+      Healthbars_and_Potions (2)_55: 7620449628513257677
+      Healthbars_and_Potions (2)_56: 4594801014483903697
+      Healthbars_and_Potions (2)_57: -9111925794814625234
+      Healthbars_and_Potions (2)_58: 4674367453898065157
+      Healthbars_and_Potions (2)_59: -8748964644361660253
+      Healthbars_and_Potions (2)_6: 7164752843240659235
+      Healthbars_and_Potions (2)_60: -8753302788172855387
+      Healthbars_and_Potions (2)_61: 6072671078146192151
+      Healthbars_and_Potions (2)_62: -8945947661923554110
+      Healthbars_and_Potions (2)_63: -4534457148347492636
+      Healthbars_and_Potions (2)_64: 6316933921901416558
+      Healthbars_and_Potions (2)_65: -6580255835223206942
+      Healthbars_and_Potions (2)_7: 1036719790859189713
+      Healthbars_and_Potions (2)_8: 7227908683337781423
+      Healthbars_and_Potions (2)_9: 5633925906254371044
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

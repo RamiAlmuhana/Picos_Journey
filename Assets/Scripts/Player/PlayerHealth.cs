@@ -6,19 +6,20 @@ public class PlayerHealth : MonoBehaviour
 {
     public float health;
     public float maxHealth;
-    public Image healthBar;
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private HealthBarController healthBarController;
+
     void Start()
     {
         maxHealth = health;
+        healthBarController = GetComponentInChildren<HealthBarController>();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
-        healthBar.fillAmount = Mathf.Clamp(health / maxHealth, 0, 1);
-
+        if (healthBarController != null)
+        {
+            healthBarController.UpdateHealthBar(health, maxHealth);
+        }
         if (health <= 0)
         {
             Destroy(gameObject);
