@@ -8,6 +8,8 @@ public class EnemyShooting : MonoBehaviour
     private GameObject player;
     [SerializeField]
     private float enemyRange;
+    [SerializeField] 
+    private float fireRate = 1f;
     
     private float timer;
     void Start()
@@ -27,7 +29,7 @@ public class EnemyShooting : MonoBehaviour
             
             timer += Time.deltaTime;
             
-            if (timer > 1)
+            if (timer > fireRate)
             {
                 timer = 0;
                 Shoot();
@@ -37,17 +39,15 @@ public class EnemyShooting : MonoBehaviour
     
     private void FacePlayer()
     {
-        // Bereken de richting naar de speler
         Vector3 direction = player.transform.position - transform.position;
 
-        // Als de speler aan de rechterkant is, kijk naar rechts, anders naar links
         if (direction.x > 0)
         {
-            transform.localScale = new Vector3(1, 1, 1); // Normale schaal voor rechts
+            transform.localScale = new Vector3(1, 1, 1); 
         }
         else
         {
-            transform.localScale = new Vector3(-1, 1, 1); // Gespiegeld voor links
+            transform.localScale = new Vector3(-1, 1, 1);
         }
     }
 
