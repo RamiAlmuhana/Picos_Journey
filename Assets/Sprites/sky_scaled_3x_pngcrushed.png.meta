@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sky_scaled_3x_pngcrushed_0: 6558878808076061981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
