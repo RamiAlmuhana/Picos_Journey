@@ -1,0 +1,1846 @@
+fileFormatVersion: 2
+guid: c23691ba507f0f64ca284368aca081d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6211846981403616178
+    second: Healthbars_enemy_0
+  - first:
+      213: -5527108908765987584
+    second: Healthbars_enemy_1
+  - first:
+      213: -1736725521487448968
+    second: Healthbars_enemy_2
+  - first:
+      213: -7810773455263903234
+    second: Healthbars_enemy_3
+  - first:
+      213: -9150802313828484926
+    second: Healthbars_enemy_4
+  - first:
+      213: -6919300845991333898
+    second: Healthbars_enemy_5
+  - first:
+      213: 8003581379365148831
+    second: Healthbars_enemy_6
+  - first:
+      213: 1402425239613663714
+    second: Healthbars_enemy_7
+  - first:
+      213: 8560636390307417090
+    second: Healthbars_enemy_8
+  - first:
+      213: 5071059469657049872
+    second: Healthbars_enemy_9
+  - first:
+      213: -2354850243554095657
+    second: Healthbars_enemy_10
+  - first:
+      213: -9109387150885708436
+    second: Healthbars_enemy_11
+  - first:
+      213: -706364726381150469
+    second: Healthbars_enemy_12
+  - first:
+      213: -2022128438159323038
+    second: Healthbars_enemy_13
+  - first:
+      213: 4346213812957548853
+    second: Healthbars_enemy_14
+  - first:
+      213: 336426265202689282
+    second: Healthbars_enemy_15
+  - first:
+      213: 5218714529541500465
+    second: Healthbars_enemy_16
+  - first:
+      213: 4444648917700255250
+    second: Healthbars_enemy_17
+  - first:
+      213: 5957164110589783227
+    second: Healthbars_enemy_18
+  - first:
+      213: -5338396129089507832
+    second: Healthbars_enemy_19
+  - first:
+      213: -4271094819718557005
+    second: Healthbars_enemy_20
+  - first:
+      213: 1751215126364176441
+    second: Healthbars_enemy_21
+  - first:
+      213: -6281645301671864762
+    second: Healthbars_enemy_22
+  - first:
+      213: 8673364863230105543
+    second: Healthbars_enemy_23
+  - first:
+      213: 1005562983672125199
+    second: Healthbars_enemy_24
+  - first:
+      213: -8484537441074856372
+    second: Healthbars_enemy_25
+  - first:
+      213: 5909203066821418127
+    second: Healthbars_enemy_26
+  - first:
+      213: 2579131234396123279
+    second: Healthbars_enemy_27
+  - first:
+      213: -6300779354952511049
+    second: Healthbars_enemy_28
+  - first:
+      213: 4253674162232586732
+    second: Healthbars_enemy_29
+  - first:
+      213: -683578583848925428
+    second: Healthbars_enemy_30
+  - first:
+      213: -3333289449300482069
+    second: Healthbars_enemy_31
+  - first:
+      213: 6205324120076252272
+    second: Healthbars_enemy_32
+  - first:
+      213: -4443579370543060534
+    second: Healthbars_enemy_33
+  - first:
+      213: 5385575912027487422
+    second: Healthbars_enemy_34
+  - first:
+      213: -5548495562864511184
+    second: Healthbars_enemy_35
+  - first:
+      213: 6543318909965017879
+    second: Healthbars_enemy_36
+  - first:
+      213: 206751099104391259
+    second: Healthbars_enemy_37
+  - first:
+      213: 3004094856434653171
+    second: Healthbars_enemy_38
+  - first:
+      213: 9156198512224926691
+    second: Healthbars_enemy_39
+  - first:
+      213: -7839093108243174869
+    second: Healthbars_enemy_40
+  - first:
+      213: 7146931076405568739
+    second: Healthbars_enemy_41
+  - first:
+      213: 643045311087163089
+    second: Healthbars_enemy_42
+  - first:
+      213: -7038347716484621574
+    second: Healthbars_enemy_43
+  - first:
+      213: -3412522943059039676
+    second: Healthbars_enemy_44
+  - first:
+      213: -4006366763732469849
+    second: Healthbars_enemy_45
+  - first:
+      213: 9179640176141501572
+    second: Healthbars_enemy_46
+  - first:
+      213: -5486481608207069797
+    second: Healthbars_enemy_47
+  - first:
+      213: -7563438010681056894
+    second: Healthbars_enemy_48
+  - first:
+      213: -8481811801789979943
+    second: Healthbars_enemy_49
+  - first:
+      213: -3352778433497357920
+    second: Healthbars_enemy_50
+  - first:
+      213: 258954734836122174
+    second: Healthbars_enemy_51
+  - first:
+      213: 6573677577236423186
+    second: Healthbars_enemy_52
+  - first:
+      213: 1009513185839888833
+    second: Healthbars_enemy_53
+  - first:
+      213: -5845688277560324200
+    second: Healthbars_enemy_54
+  - first:
+      213: 3042887122133031045
+    second: Healthbars_enemy_55
+  - first:
+      213: 3655062947014566954
+    second: Healthbars_enemy_56
+  - first:
+      213: 788096339144752129
+    second: Healthbars_enemy_57
+  - first:
+      213: 4233206261241649044
+    second: Healthbars_enemy_58
+  - first:
+      213: -6741834771266448621
+    second: Healthbars_enemy_59
+  - first:
+      213: 2308834777142791650
+    second: Healthbars_enemy_60
+  - first:
+      213: -8107726324453247573
+    second: Healthbars_enemy_61
+  - first:
+      213: 6939055654698520726
+    second: Healthbars_enemy_62
+  - first:
+      213: -5456371181190851483
+    second: Healthbars_enemy_63
+  - first:
+      213: -4838217365885786677
+    second: Healthbars_enemy_64
+  - first:
+      213: 9160333289500563847
+    second: Healthbars_enemy_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Healthbars_enemy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b325a5fae9e43650800000000000000
+      internalID: 6211846981403616178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 119
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d3b1a3bb3cb43b0800000000000000
+      internalID: -5527108908765987584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 119
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874b26bf659e5e7e0800000000000000
+      internalID: -1736725521487448968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 119
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1d1f9fcee8a9390800000000000000
+      internalID: -7810773455263903234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c83e6257c1d10180800000000000000
+      internalID: -9150802313828484926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 110
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff60a46a84b9ff90800000000000000
+      internalID: -6919300845991333898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 110
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f989df71cde621f60800000000000000
+      internalID: 8003581379365148831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_7
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 110
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9e637335a667310800000000000000
+      internalID: 1402425239613663714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c4e87d07d7dc670800000000000000
+      internalID: 8560636390307417090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 101
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b0ac358b5006640800000000000000
+      internalID: 5071059469657049872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 101
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd47b51e24e15fd0800000000000000
+      internalID: -2354850243554095657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 101
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d13fd56a4f49180800000000000000
+      internalID: -9109387150885708436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe7f2a160d7236f0800000000000000
+      internalID: -706364726381150469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_13
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 92
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2605c4136e4ffe3e0800000000000000
+      internalID: -2022128438159323038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 92
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5311b378f6ad05c30800000000000000
+      internalID: 4346213812957548853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_15
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 92
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205848ed7e93ba400800000000000000
+      internalID: 336426265202689282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ead75f6399c6840800000000000000
+      internalID: 5218714529541500465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_17
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 83
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e19d254a09ead30800000000000000
+      internalID: 4444648917700255250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 83
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbce86832391ca250800000000000000
+      internalID: 5957164110589783227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_19
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 83
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80eac4f21053ae5b0800000000000000
+      internalID: -5338396129089507832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b21aa404e50ab4c0800000000000000
+      internalID: -4271094819718557005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_21
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 74
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9304a3c01e09d4810800000000000000
+      internalID: 1751215126364176441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 74
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646d8d431ec13d8a0800000000000000
+      internalID: -6281645301671864762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_23
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 74
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c75f20c36bfd5870800000000000000
+      internalID: 8673364863230105543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f071f09b43a74fd00800000000000000
+      internalID: 1005562983672125199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_25
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 65
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e3b3d762ed04a80800000000000000
+      internalID: -8484537441074856372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 65
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c1a8781e4b10250800000000000000
+      internalID: 5909203066821418127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_27
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80bb4f513aeac320800000000000000
+      internalID: 2579131234396123279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1d0f34f822f88a0800000000000000
+      internalID: -6300779354952511049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 56
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce171261d16180b30800000000000000
+      internalID: 4253674162232586732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 56
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07ce9556e07386f0800000000000000
+      internalID: -683578583848925428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 56
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be723e808e6cdb1d0800000000000000
+      internalID: -3333289449300482069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074fe45f86dbd1650800000000000000
+      internalID: 6205324120076252272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_33
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 47
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9e6870b1c3552c0800000000000000
+      internalID: -4443579370543060534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_34
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 47
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc7c4b02c86dba40800000000000000
+      internalID: 5385575912027487422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_35
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 47
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03731a9cea8cff2b0800000000000000
+      internalID: -5548495562864511184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713af8071e98eca50800000000000000
+      internalID: 6543318909965017879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_37
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 38
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50f90b77078ed200800000000000000
+      internalID: 206751099104391259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_38
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 38
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f79d550b50b0b920800000000000000
+      internalID: 3004094856434653171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_39
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 38
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb7026090a511f70800000000000000
+      internalID: 9156198512224926691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ae3f1f952f53390800000000000000
+      internalID: -7839093108243174869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_41
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 26
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4aa5ba2fffe2360800000000000000
+      internalID: 7146931076405568739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_42
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6b4ddad4e8ce800800000000000000
+      internalID: 643045311087163089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_43
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 26
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa9049ea04c25e90800000000000000
+      internalID: -7038347716484621574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_44
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a681fa67844a0d0800000000000000
+      internalID: -3412522943059039676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_45
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a77bcfa7a68668c0800000000000000
+      internalID: -4006366763732469849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48481d8ba12a46f70800000000000000
+      internalID: 9179640176141501572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_47
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d8a14cb0a1cd3b0800000000000000
+      internalID: -5486481608207069797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_48
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2812bacb335490790800000000000000
+      internalID: -7563438010681056894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_49
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2a796da1d8a4a80800000000000000
+      internalID: -8481811801789979943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1accc47c98871d0800000000000000
+      internalID: -3352778433497357920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_51
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 15
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3200d695fdf79300800000000000000
+      internalID: 258954734836122174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_52
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 15
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212a02b7de46a3b50800000000000000
+      internalID: 6573677577236423186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_53
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 15
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c93f06d4e2820e00800000000000000
+      internalID: 1009513185839888833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_54
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f0a5cbb71ffdea0800000000000000
+      internalID: -5845688277560324200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_55
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588995637b18a3a20800000000000000
+      internalID: 3042887122133031045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_56
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24ee7c826469b230800000000000000
+      internalID: 3655062947014566954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_57
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c3287e171efea00800000000000000
+      internalID: 788096339144752129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_58
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49794468aae5fba30800000000000000
+      internalID: 4233206261241649044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_59
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313594ccef03072a0800000000000000
+      internalID: -6741834771266448621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed0aa04ff0aa0020800000000000000
+      internalID: 2308834777142791650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_61
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba571ee4dd19b7f80800000000000000
+      internalID: -8107726324453247573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_62
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69098fe6a5a7c4060800000000000000
+      internalID: 6939055654698520726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_63
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564d07ed1531744b0800000000000000
+      internalID: -5456371181190851483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_64
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5604090f23bdcb0800000000000000
+      internalID: -4838217365885786677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbars_enemy_65
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789ddd0e79a002f70800000000000000
+      internalID: 9160333289500563847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ad2ac4e7cfd99aa479fe252eb18a4755
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Healthbars_enemy_0: 6211846981403616178
+      Healthbars_enemy_1: -5527108908765987584
+      Healthbars_enemy_10: -2354850243554095657
+      Healthbars_enemy_11: -9109387150885708436
+      Healthbars_enemy_12: -706364726381150469
+      Healthbars_enemy_13: -2022128438159323038
+      Healthbars_enemy_14: 4346213812957548853
+      Healthbars_enemy_15: 336426265202689282
+      Healthbars_enemy_16: 5218714529541500465
+      Healthbars_enemy_17: 4444648917700255250
+      Healthbars_enemy_18: 5957164110589783227
+      Healthbars_enemy_19: -5338396129089507832
+      Healthbars_enemy_2: -1736725521487448968
+      Healthbars_enemy_20: -4271094819718557005
+      Healthbars_enemy_21: 1751215126364176441
+      Healthbars_enemy_22: -6281645301671864762
+      Healthbars_enemy_23: 8673364863230105543
+      Healthbars_enemy_24: 1005562983672125199
+      Healthbars_enemy_25: -8484537441074856372
+      Healthbars_enemy_26: 5909203066821418127
+      Healthbars_enemy_27: 2579131234396123279
+      Healthbars_enemy_28: -6300779354952511049
+      Healthbars_enemy_29: 4253674162232586732
+      Healthbars_enemy_3: -7810773455263903234
+      Healthbars_enemy_30: -683578583848925428
+      Healthbars_enemy_31: -3333289449300482069
+      Healthbars_enemy_32: 6205324120076252272
+      Healthbars_enemy_33: -4443579370543060534
+      Healthbars_enemy_34: 5385575912027487422
+      Healthbars_enemy_35: -5548495562864511184
+      Healthbars_enemy_36: 6543318909965017879
+      Healthbars_enemy_37: 206751099104391259
+      Healthbars_enemy_38: 3004094856434653171
+      Healthbars_enemy_39: 9156198512224926691
+      Healthbars_enemy_4: -9150802313828484926
+      Healthbars_enemy_40: -7839093108243174869
+      Healthbars_enemy_41: 7146931076405568739
+      Healthbars_enemy_42: 643045311087163089
+      Healthbars_enemy_43: -7038347716484621574
+      Healthbars_enemy_44: -3412522943059039676
+      Healthbars_enemy_45: -4006366763732469849
+      Healthbars_enemy_46: 9179640176141501572
+      Healthbars_enemy_47: -5486481608207069797
+      Healthbars_enemy_48: -7563438010681056894
+      Healthbars_enemy_49: -8481811801789979943
+      Healthbars_enemy_5: -6919300845991333898
+      Healthbars_enemy_50: -3352778433497357920
+      Healthbars_enemy_51: 258954734836122174
+      Healthbars_enemy_52: 6573677577236423186
+      Healthbars_enemy_53: 1009513185839888833
+      Healthbars_enemy_54: -5845688277560324200
+      Healthbars_enemy_55: 3042887122133031045
+      Healthbars_enemy_56: 3655062947014566954
+      Healthbars_enemy_57: 788096339144752129
+      Healthbars_enemy_58: 4233206261241649044
+      Healthbars_enemy_59: -6741834771266448621
+      Healthbars_enemy_6: 8003581379365148831
+      Healthbars_enemy_60: 2308834777142791650
+      Healthbars_enemy_61: -8107726324453247573
+      Healthbars_enemy_62: 6939055654698520726
+      Healthbars_enemy_63: -5456371181190851483
+      Healthbars_enemy_64: -4838217365885786677
+      Healthbars_enemy_65: 9160333289500563847
+      Healthbars_enemy_7: 1402425239613663714
+      Healthbars_enemy_8: 8560636390307417090
+      Healthbars_enemy_9: 5071059469657049872
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

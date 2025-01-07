@@ -330,6 +330,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 959433290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &150467171 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 9113473488112580865, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+  m_PrefabInstance: {fileID: 251100772}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &177205050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -556,13 +561,57 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6005946046284691398, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 150467171}
+    - target: {fileID: 6005946046284691398, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+      propertyPath: 'healthSprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 6543318909965017879, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 6005946046284691398, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+      propertyPath: 'healthSprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: -4443579370543060534, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 6005946046284691398, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+      propertyPath: 'healthSprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 4253674162232586732, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 6005946046284691398, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+      propertyPath: 'healthSprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: -8484537441074856372, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 6005946046284691398, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+      propertyPath: 'healthSprites.Array.data[4]'
+      value: 
+      objectReference: {fileID: -4271094819718557005, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 6005946046284691398, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+      propertyPath: 'healthSprites.Array.data[5]'
+      value: 
+      objectReference: {fileID: 5218714529541500465, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 6005946046284691398, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+      propertyPath: 'healthSprites.Array.data[6]'
+      value: 
+      objectReference: {fileID: -706364726381150469, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 6005946046284691398, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+      propertyPath: 'healthSprites.Array.data[7]'
+      value: 
+      objectReference: {fileID: -2354850243554095657, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 6005946046284691398, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+      propertyPath: 'healthSprites.Array.data[8]'
+      value: 
+      objectReference: {fileID: 8003581379365148831, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 6005946046284691398, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+      propertyPath: 'healthSprites.Array.data[9]'
+      value: 
+      objectReference: {fileID: -1736725521487448968, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
     - target: {fileID: 6671915002345931239, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7852141630483771509, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.208992
+      value: 34.09
       objectReference: {fileID: 0}
     - target: {fileID: 7852141630483771509, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
       propertyPath: m_LocalPosition.y
@@ -600,6 +649,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9113473488112580865, guid: e650f5e0330ce8f41904c85836bfc089, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1736725521487448968, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2736,7 +2789,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7924080129222874777, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
+  m_Sprite: {fileID: 7778982591847143441, guid: 4bf82044c57b5eb4c91be865cae8a749, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3831,16 +3884,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 590633718}
   healthSprites:
-  - {fileID: 402216073127369487, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: 3620555437404738987, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: -5376161508947427188, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: -2965802531537930626, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: 1956525396781488186, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: -6219359559898611187, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: -5430507049671424643, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: 7037272668706449392, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: 5563486781262992350, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: -7924080129222874777, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
+  - {fileID: -1741755706132929223, guid: 38ba4c2efd076da4988f750bf753ca47, type: 3}
+  - {fileID: 8346575513763257225, guid: 38ba4c2efd076da4988f750bf753ca47, type: 3}
+  - {fileID: -3506140335141645570, guid: 38ba4c2efd076da4988f750bf753ca47, type: 3}
+  - {fileID: 3361484208097041272, guid: 38ba4c2efd076da4988f750bf753ca47, type: 3}
+  - {fileID: -3241302493788149522, guid: 38ba4c2efd076da4988f750bf753ca47, type: 3}
+  - {fileID: -4292961428937971600, guid: 38ba4c2efd076da4988f750bf753ca47, type: 3}
+  - {fileID: -1497040958047260608, guid: 38ba4c2efd076da4988f750bf753ca47, type: 3}
+  - {fileID: -1275606298199100802, guid: 38ba4c2efd076da4988f750bf753ca47, type: 3}
+  - {fileID: -8482229092932758600, guid: 38ba4c2efd076da4988f750bf753ca47, type: 3}
+  - {fileID: 1437335107314187064, guid: 38ba4c2efd076da4988f750bf753ca47, type: 3}
 --- !u!1 &977120593
 GameObject:
   m_ObjectHideFlags: 0
@@ -29451,10 +29504,54 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3063942196171533812, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1736725521487448968, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
     - target: {fileID: 4140070778180247982, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
       propertyPath: m_Name
       value: Drone
       objectReference: {fileID: 0}
+    - target: {fileID: 8780014705327941798, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
+      propertyPath: 'healthSprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 6543318909965017879, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 8780014705327941798, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
+      propertyPath: 'healthSprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: -4443579370543060534, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 8780014705327941798, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
+      propertyPath: 'healthSprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 4253674162232586732, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 8780014705327941798, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
+      propertyPath: 'healthSprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: -8484537441074856372, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 8780014705327941798, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
+      propertyPath: 'healthSprites.Array.data[4]'
+      value: 
+      objectReference: {fileID: -4271094819718557005, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 8780014705327941798, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
+      propertyPath: 'healthSprites.Array.data[5]'
+      value: 
+      objectReference: {fileID: 5218714529541500465, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 8780014705327941798, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
+      propertyPath: 'healthSprites.Array.data[6]'
+      value: 
+      objectReference: {fileID: -706364726381150469, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 8780014705327941798, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
+      propertyPath: 'healthSprites.Array.data[7]'
+      value: 
+      objectReference: {fileID: -2354850243554095657, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 8780014705327941798, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
+      propertyPath: 'healthSprites.Array.data[8]'
+      value: 
+      objectReference: {fileID: 8003581379365148831, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+    - target: {fileID: 8780014705327941798, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
+      propertyPath: 'healthSprites.Array.data[9]'
+      value: 
+      objectReference: {fileID: -1736725521487448968, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
