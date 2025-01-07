@@ -14,13 +14,17 @@ public class PlayerMovement : MonoBehaviour
     public bool canMove = true;
     public bool canAttack = true;
     public bool hasAK = false;
-    
 
+    [SerializeField]
+    private AudioClip jumpSound; // Variable for the jump sound
+
+    private AudioSource audioSource; // Audio source component to play sounds
 
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>(); // Get the AudioSource component
     }
 
     private void Update()
@@ -28,9 +32,9 @@ public class PlayerMovement : MonoBehaviour
         if (!canMove) { return; }
 
         float horizontalInput = Input.GetAxis("Horizontal");
-        
+
         body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
-        
+
         if (horizontalInput > 0.01f)
         {
             transform.localScale = new Vector3(-1, 1, 1);
@@ -39,12 +43,12 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = Vector3.one;
         }
-        
-        if (Input.GetKey(KeyCode.W) && grounded || Input.GetKey(KeyCode.UpArrow) && grounded)
+
+        if ((Input.GetKey(KeyCode.W) && grounded) || (Input.GetKey(KeyCode.UpArrow) && grounded))
         {
             Jump();
         }
-        
+
         if (hasAK)
         {
             anim.SetBool("walkWithAK", Mathf.Abs(horizontalInput) > 0.01f);
@@ -57,7 +61,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         anim.SetBool("grounded", grounded);
-
     }
 
     private void Jump()
@@ -73,6 +76,12 @@ public class PlayerMovement : MonoBehaviour
         }
 
         grounded = false;
+
+        // Play the jump sound if it's assigned
+        if (jumpSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(jumpSound);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -82,10 +91,9 @@ public class PlayerMovement : MonoBehaviour
             grounded = true;
         }
     }
-    
+
     public bool IsGrounded()
     {
         return grounded;
     }
-
 }
