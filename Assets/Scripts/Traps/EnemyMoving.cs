@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class SpikeTrap : MonoBehaviour
+public class EnemyMoving : MonoBehaviour
 {
     [SerializeField] private float moveDistance = 2.0f;
     [SerializeField] private float moveSpeed = 2.0f;

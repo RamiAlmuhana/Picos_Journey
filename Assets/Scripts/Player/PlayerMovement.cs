@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = Vector3.one;
         }
         
-        if (Input.GetKey(KeyCode.Space) && grounded)
+        if (Input.GetKey(KeyCode.W) && grounded || Input.GetKey(KeyCode.UpArrow) && grounded)
         {
             Jump();
         }

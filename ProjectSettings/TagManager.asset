@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - EnemyBullet
+  - Enemy
+  - EnemyHealthBar
   layers:
   - Default
   - TransparentFX
@@ -44,6 +47,15 @@ TagManager:
     locked: 0
   - name: background
     uniqueID: 4168774051
+    locked: 0
+  - name: NPC
+    uniqueID: 2709718839
+    locked: 0
+  - name: Bullets
+    uniqueID: 540490741
+    locked: 0
+  - name: Player
+    uniqueID: 285359239
     locked: 0
   m_RenderingLayers:
   - Default

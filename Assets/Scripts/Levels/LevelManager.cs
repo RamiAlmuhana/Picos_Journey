@@ -10,13 +10,17 @@ public class LevelManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!string.IsNullOrEmpty(nextLevelName))
+        if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene(nextLevelName);
+            if (!string.IsNullOrEmpty(nextLevelName))
+            {
+                SceneManager.LoadScene(nextLevelName);
+            }
+            else
+            {
+                Debug.Log("Geen volgende level aangegeven");
+            }
         }
-        else
-        {
-            Debug.Log("Geen volgende level aangegeven");
-        }
+
     }
 }

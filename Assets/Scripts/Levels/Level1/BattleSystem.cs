@@ -37,7 +37,9 @@ public class BattleSystem : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             animator.SetBool("run", false);
+            animator.SetBool("walkWithAK", false);
             animator.SetBool("grounded", true);
+
             dialoguePanel.SetActive(true);
             playerMovementScript.canMove = false;
             

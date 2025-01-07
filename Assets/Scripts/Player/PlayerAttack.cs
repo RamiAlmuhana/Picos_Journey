@@ -32,7 +32,7 @@ public class PlayerAttack : MonoBehaviour
             return;
         }
         
-        if (Input.GetMouseButton(0) && cooldownTimer > attackCooldown && playerMovement.IsGrounded())
+        if (Input.GetKey(KeyCode.Space) && cooldownTimer > attackCooldown || Input.GetMouseButtonDown(0) && cooldownTimer > attackCooldown)
         {
             Attack();
         }
