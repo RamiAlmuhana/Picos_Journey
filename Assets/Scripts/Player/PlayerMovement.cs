@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public bool canMove = true;
     public bool canAttack = true;
     public bool hasAK = false;
+    public bool hasPistol = false;
 
     [SerializeField]
     private AudioClip jumpSound; // Variable for the jump sound
@@ -49,7 +50,12 @@ public class PlayerMovement : MonoBehaviour
             Jump();
         }
 
-        if (hasAK)
+        if (hasPistol)
+        {
+            anim.SetBool("walkWithPistol", Mathf.Abs(horizontalInput) > 0.01f);
+            anim.SetBool("run", false);
+        }
+        else if (hasAK)
         {
             anim.SetBool("walkWithAK", Mathf.Abs(horizontalInput) > 0.01f);
             anim.SetBool("run", false);
@@ -57,8 +63,10 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             anim.SetBool("run", Mathf.Abs(horizontalInput) > 0.01f);
+            anim.SetBool("walkWithPistol", false);
             anim.SetBool("walkWithAK", false);
         }
+
 
         anim.SetBool("grounded", grounded);
     }
@@ -69,6 +77,9 @@ public class PlayerMovement : MonoBehaviour
         if (hasAK)
         {
             anim.SetBool("HasAK", true);
+        } else if (hasPistol)
+        {
+            anim.SetBool("HasPistol", true);
         }
         else
         {
@@ -76,8 +87,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         grounded = false;
-
-        // Play the jump sound if it's assigned
+        
         if (jumpSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(jumpSound);
@@ -96,4 +106,13 @@ public class PlayerMovement : MonoBehaviour
     {
         return grounded;
     }
+    
+    public void ResetWeapons()
+    {
+        hasPistol = false;
+        hasAK = false;
+        anim.SetBool("HasPistol", false);
+        anim.SetBool("HasAK", false);
+    }
+
 }

@@ -2,9 +2,12 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    [SerializeField] private float attackCooldown;
+    // [SerializeField] private float attackCooldown;
     [SerializeField] private Transform firePoint;
-    [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private GameObject akBulletPrefab;
+    [SerializeField] private GameObject pistolBulletPrefab;
+    [SerializeField] private float pistolCooldown = 0.5f;
+    [SerializeField] private float akCooldown = 0.25f;
 
     private Animator anim;
     private PlayerMovement playerMovement;
@@ -23,7 +26,7 @@ public class PlayerAttack : MonoBehaviour
             return;
         }
 
-        if (playerMovement.hasAK)
+        if (playerMovement.hasAK || playerMovement.hasPistol)
         {
             playerMovement.canAttack = true;
         }
@@ -32,7 +35,11 @@ public class PlayerAttack : MonoBehaviour
             return;
         }
         
-        if (Input.GetKey(KeyCode.Space) && cooldownTimer > attackCooldown || Input.GetMouseButtonDown(0) && cooldownTimer > attackCooldown)
+        if (playerMovement.hasPistol && (Input.GetKey(KeyCode.Space) || Input.GetMouseButtonDown(0)) && cooldownTimer > pistolCooldown)
+        {
+            AttackPistol();
+        }
+        else if (playerMovement.hasAK && (Input.GetKey(KeyCode.Space) || Input.GetMouseButtonDown(0)) && cooldownTimer > akCooldown)
         {
             Attack();
         }
@@ -45,9 +52,18 @@ public class PlayerAttack : MonoBehaviour
         anim.SetTrigger("attack");
         cooldownTimer = 0;
 
-        // Spawn de kogel
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        GameObject bullet = Instantiate(akBulletPrefab, firePoint.position, Quaternion.identity);
         bullet.GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
+    
+    private void AttackPistol()
+    {
+        anim.SetTrigger("attackPistol");
+        cooldownTimer = 0;
+
+        GameObject bullet = Instantiate(pistolBulletPrefab, firePoint.position, Quaternion.identity);
+        bullet.GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
+    }
+
 
 }

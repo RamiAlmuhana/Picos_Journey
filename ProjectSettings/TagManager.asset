@@ -51,6 +51,9 @@ TagManager:
   - name: NPC
     uniqueID: 2709718839
     locked: 0
+  - name: Gun
+    uniqueID: 1987310527
+    locked: 0
   - name: Bullets
     uniqueID: 540490741
     locked: 0
