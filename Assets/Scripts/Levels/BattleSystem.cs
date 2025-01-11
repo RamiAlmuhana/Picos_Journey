@@ -1,7 +1,6 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class BattleSystem : MonoBehaviour
 {
@@ -10,41 +9,29 @@ public class BattleSystem : MonoBehaviour
     public PlayerMovement playerMovementScript;
     public Animator animator;
 
+    private bool skipDialogue;
 
-    
     void Start()
     {
         StartCoroutine(SetupBattle());
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+            skipDialogue = true;
+    }
+
     private IEnumerator SetupBattle()
     {
-        Scene activeScene = SceneManager.GetActiveScene();
-        if (activeScene.name == "Level1")
-        {
-            playerMovementScript.canMove = false;
-        
-            dialoguePanel.SetActive(true);
-            dialogueText.text = "Whats happening?";
-        
-            yield return StartCoroutine(WaitForSpaceInput());
-        
-            dialogueText.text = "Why is the ice melting?";
-        
-            yield return StartCoroutine(WaitForSpaceInput());
-        
-            dialoguePanel.SetActive(false);
-            playerMovementScript.canMove = true;
-        } else if (activeScene.name == "Level2")
-        {
-            dialoguePanel.SetActive(false);
-            playerMovementScript.canMove = true;
-        } else if (activeScene.name == "Level3")
-        {
-            dialoguePanel.SetActive(false);
-            playerMovementScript.canMove = true;
-        }
+        playerMovementScript.canMove = false;
+        dialoguePanel.SetActive(true);
 
+        yield return ShowDialogue("What's happening?", 3f);
+        yield return ShowDialogue("Why is the ice melting?", 3f);
+
+        dialoguePanel.SetActive(false);
+        playerMovementScript.canMove = true;
     }
 
     private IEnumerator OnTriggerEnter2D(Collider2D collision)
@@ -53,31 +40,30 @@ public class BattleSystem : MonoBehaviour
         {
             animator.SetBool("run", false);
             animator.SetBool("walkWithAK", false);
-            animator.SetBool("walkWithPistol", false);
             animator.SetBool("grounded", true);
 
             dialoguePanel.SetActive(true);
             playerMovementScript.canMove = false;
-            
-            dialogueText.text = "Hi friend, do you know why the ice is melting?";
-            
-            yield return StartCoroutine(WaitForSpaceInput());
-        
-            dialogueText.text = "Hi Pico, the ice is melting because of a person who is causing climate disruptions toward the north.";
-            
-            yield return StartCoroutine(WaitForSpaceInput());
-            
+
+            yield return ShowDialogue("Hi friend, do you know why the ice is melting?", 3f);
+            yield return ShowDialogue("Hi Pico, the ice is melting because of a person who is causing climate disruptions toward the north.", 6f);
+
             dialoguePanel.SetActive(false);
             playerMovementScript.canMove = true;
         }
     }
 
-    private IEnumerator WaitForSpaceInput()
+    private IEnumerator ShowDialogue(string message, float duration)
     {
-        
-        while (!Input.GetKeyDown(KeyCode.Space))
+        dialogueText.text = message;
+        float timer = 0f;
+
+        while (timer < duration && !skipDialogue)
         {
+            timer += Time.deltaTime;
             yield return null;
         }
+
+        skipDialogue = false; // Reset voor volgende dialoog
     }
 }

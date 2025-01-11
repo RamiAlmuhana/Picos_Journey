@@ -3045,6 +3045,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shotgun
       objectReference: {fileID: 0}
+    - target: {fileID: 5165521278150106591, guid: 90871f9a5c73b444281e2cfd151518c3, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165521278150106591, guid: 90871f9a5c73b444281e2cfd151518c3, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1987310527
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3871,7 +3879,6 @@ MonoBehaviour:
   akSoundEffect: {fileID: 8300000, guid: c4489d3504fc06748a7331695a3b682b, type: 3}
   pistolSoundEffect: {fileID: 8300000, guid: 6436ca303f37e734384a0ec0b5fc59cd, type: 3}
   shotgunSoundEffect: {fileID: 8300000, guid: 6888d5e5196839b45a79104c76281e3e, type: 3}
-  shotgunBulletDestroyTime: 0.5
 --- !u!70 &959433294
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -31702,7 +31709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1802857242
 MonoBehaviour:
   m_ObjectHideFlags: 0
