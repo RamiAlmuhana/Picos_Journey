@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BattleSystem : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class BattleSystem : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Mouse1))
             skipDialogue = true;
     }
 
@@ -26,10 +27,23 @@ public class BattleSystem : MonoBehaviour
     {
         playerMovementScript.canMove = false;
         dialoguePanel.SetActive(true);
-
-        yield return ShowDialogue("What's happening?", 3f);
-        yield return ShowDialogue("Why is the ice melting?", 3f);
-
+        
+        Scene activeScene = SceneManager.GetActiveScene();
+        if (activeScene.name == "Level1")
+        {
+            yield return ShowDialogue("What's happening?", 3f);
+            yield return ShowDialogue("Why is the ice melting?", 3f);
+            
+        } else if (activeScene.name == "Level2")
+        {
+            dialoguePanel.SetActive(false);
+            playerMovementScript.canMove = true;
+        } else if (activeScene.name == "Level3")
+        {
+            dialoguePanel.SetActive(false);
+            playerMovementScript.canMove = true;
+        }
+        
         dialoguePanel.SetActive(false);
         playerMovementScript.canMove = true;
     }
@@ -38,18 +52,25 @@ public class BattleSystem : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            animator.SetBool("run", false);
-            animator.SetBool("walkWithAK", false);
-            animator.SetBool("grounded", true);
+            DialogueTrigger trigger = GetComponent<DialogueTrigger>();
 
-            dialoguePanel.SetActive(true);
-            playerMovementScript.canMove = false;
+            if (trigger != null)
+            {
+                animator.SetBool("run", false);
+                animator.SetBool("walkWithAK", false);
+                animator.SetBool("grounded", true);
 
-            yield return ShowDialogue("Hi friend, do you know why the ice is melting?", 3f);
-            yield return ShowDialogue("Hi Pico, the ice is melting because of a person who is causing climate disruptions toward the north.", 6f);
+                dialoguePanel.SetActive(true);
+                playerMovementScript.canMove = false;
 
-            dialoguePanel.SetActive(false);
-            playerMovementScript.canMove = true;
+                foreach (DialogueLine line in trigger.dialogueLines)
+                {
+                    yield return ShowDialogue(line.text, line.duration);
+                }
+
+                dialoguePanel.SetActive(false);
+                playerMovementScript.canMove = true;
+            }
         }
     }
 
@@ -64,6 +85,6 @@ public class BattleSystem : MonoBehaviour
             yield return null;
         }
 
-        skipDialogue = false; // Reset voor volgende dialoog
+        skipDialogue = false;
     }
 }

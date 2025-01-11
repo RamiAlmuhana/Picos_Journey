@@ -812,7 +812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  range: 1
+  range: 15
   damage: 0
 --- !u!212 &299742517
 SpriteRenderer:
@@ -1379,7 +1379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  range: 1
+  range: 15
   damage: 0
 --- !u!212 &366768560
 SpriteRenderer:
@@ -1654,7 +1654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  range: 1
+  range: 15
   damage: 0
 --- !u!212 &385255118
 SpriteRenderer:
@@ -3680,7 +3680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  range: 1
+  range: 15
   damage: 0
 --- !u!4 &957947060 stripped
 Transform:
@@ -4006,7 +4006,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 177b71a5459e22541a9a396e6cdca1aa, type: 3}
   m_Resource: {fileID: 8300000, guid: 177b71a5459e22541a9a396e6cdca1aa, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4732,7 +4732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  range: 1
+  range: 15
   damage: 0
 --- !u!212 &1115618779
 SpriteRenderer:
@@ -29888,7 +29888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  range: 1
+  range: 15
   damage: 0
 --- !u!212 &1248057331
 SpriteRenderer:
@@ -30634,6 +30634,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1794628505}
+  - {fileID: 1537304856}
   m_Father: {fileID: 351409812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1509661803
@@ -30705,6 +30706,100 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76e4e1a88d038f74597d334cad7b2f6d, type: 3}
+--- !u!1 &1537304855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1537304856}
+  - component: {fileID: 1537304859}
+  - component: {fileID: 1537304857}
+  m_Layer: 0
+  m_Name: DialogueTextEnd (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1537304856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537304855}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 69.4, y: 15, z: 0.054068014}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1502866868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1537304857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537304855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f73df19fa84bf6b48288d7fe487297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: Great job! You've completed half the level!
+    duration: 3
+--- !u!61 &1537304859
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537304855}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.0139427185, y: 0.70719385}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.42681885, y: 2.953493}
+  m_EdgeRadius: 0
 --- !u!1001 &1548411419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30915,7 +31010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  range: 1
+  range: 15
   damage: 0
 --- !u!212 &1559302751
 SpriteRenderer:
@@ -31079,8 +31174,8 @@ Transform:
   m_GameObject: {fileID: 1647295437}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
+  m_LocalPosition: {x: 0.0325, y: 0, z: 1}
+  m_LocalScale: {x: 1.1261959, y: 1.05, z: 1.05}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 519420032}
@@ -31484,7 +31579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  range: 1
+  range: 15
   damage: 0
 --- !u!212 &1767164665
 SpriteRenderer:
@@ -31609,6 +31704,7 @@ GameObject:
   - component: {fileID: 1794628505}
   - component: {fileID: 1794628504}
   - component: {fileID: 1794628506}
+  - component: {fileID: 1794628507}
   m_Layer: 0
   m_Name: DialogueTextEnd
   m_TagString: Untagged
@@ -31693,6 +31789,24 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1592210481}
   playerMovementScript: {fileID: 959433291}
   animator: {fileID: 959433292}
+--- !u!114 &1794628507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794628503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f73df19fa84bf6b48288d7fe487297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: Hi friend, do you know why the ice is melting?
+    duration: 3
+  - text: Hi Pico, the ice is melting because of a person who is causing climate
+      disruptions toward the north.
+    duration: 6
 --- !u!1 &1802857241
 GameObject:
   m_ObjectHideFlags: 0
@@ -32873,7 +32987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  range: 1
+  range: 15
   damage: 0
 --- !u!212 &1976487158
 SpriteRenderer:
@@ -33322,7 +33436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  range: 1
+  range: 15
   damage: 0
 --- !u!212 &2115178447
 SpriteRenderer:
