@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class PickupItem : MonoBehaviour
 {
-    public GameObject player; // Sleep hier het spelerobject in de Inspector
-    public bool isPistol; // Dit maakt het pickup-item een pistool of iets anders
+    public GameObject player;
+    public bool isPistol;
+    public bool isShotgun;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,10 +16,24 @@ public class PickupItem : MonoBehaviour
             {
                 playerMovement.hasPistol = true;
                 playerMovement.hasAK = false;
+                playerMovement.hasShotgun = false;
                 Animator playerAnimator = player.GetComponent<Animator>();
                 playerAnimator.SetBool("HasPistol", true);
                 playerAnimator.SetBool("HasAK", false);
+                playerAnimator.SetBool("HasShotgun", false);
                 playerAnimator.SetBool("walkWithAK", false);
+                playerAnimator.SetBool("walkWithShotgun", false);
+            }else if (isShotgun)
+            {
+                playerMovement.hasShotgun = true;
+                playerMovement.hasAK = false;
+                playerMovement.hasPistol = false;
+                Animator playerAnimator = player.GetComponent<Animator>();
+                playerAnimator.SetBool("HasShotgun", true);
+                playerAnimator.SetBool("HasPistol", false);
+                playerAnimator.SetBool("HasAK", false);
+                playerAnimator.SetBool("walkWithAK", false);
+                playerAnimator.SetBool("walkWithPistol", false);
             }
             else
             {
@@ -27,7 +42,9 @@ public class PickupItem : MonoBehaviour
                 Animator playerAnimator = player.GetComponent<Animator>();
                 playerAnimator.SetBool("HasAK", true);
                 playerAnimator.SetBool("HasPistol", false);
+                playerAnimator.SetBool("HasShotgun", false);
                 playerAnimator.SetBool("walkWithPistol", false);
+                playerAnimator.SetBool("walkWithShotgun", false);
             }
             
             Destroy(gameObject);
