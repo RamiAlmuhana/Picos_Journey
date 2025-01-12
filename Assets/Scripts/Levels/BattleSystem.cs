@@ -19,7 +19,7 @@ public class BattleSystem : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        if (Input.GetKeyDown(KeyCode.Return))
             skipDialogue = true;
     }
 
