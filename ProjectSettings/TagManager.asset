@@ -60,5 +60,8 @@ TagManager:
   - name: Player
     uniqueID: 285359239
     locked: 0
+  - name: ForegroundTilemap
+    uniqueID: 776147557
+    locked: 0
   m_RenderingLayers:
   - Default
