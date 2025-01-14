@@ -8,6 +8,8 @@ TagManager:
   - EnemyBullet
   - Enemy
   - EnemyHealthBar
+  - GeneratedWeapon
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -59,6 +61,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 285359239
+    locked: 0
+  - name: Ground
+    uniqueID: 2971173719
     locked: 0
   m_RenderingLayers:
   - Default
