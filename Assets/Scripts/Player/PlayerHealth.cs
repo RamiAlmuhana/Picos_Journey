@@ -25,6 +25,11 @@ public class PlayerHealth : MonoBehaviour
 
     void Update()
     {
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
+        
         if (healthBarController != null)
         {
             healthBarController.UpdateHealthBar(health, maxHealth);
