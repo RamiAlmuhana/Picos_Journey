@@ -15,12 +15,6 @@ public class PickupItem : MonoBehaviour
         }
 
         gunRandomizer = Object.FindFirstObjectByType<GunRandomizer>();
-        if (gunRandomizer == null)
-        {
-            Debug.LogError("GunRandomizer not found in the scene.");
-        }
-        
-        Debug.Log("PickupItem initialized for: " + gameObject.name);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

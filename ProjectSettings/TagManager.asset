@@ -10,6 +10,7 @@ TagManager:
   - EnemyHealthBar
   - GeneratedWeapon
   - Weapon
+  - Trap
   layers:
   - Default
   - TransparentFX
