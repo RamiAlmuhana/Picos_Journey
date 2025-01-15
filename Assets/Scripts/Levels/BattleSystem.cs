@@ -41,7 +41,8 @@ public class BattleSystem : MonoBehaviour
         } else if (activeScene.name == "Level3")
         {
             yield return ShowDialogue("Why is there garbage everywhere?", 3f);
-            yield return ShowDialogue("I have to prevent the drones from polluting the planet!", 3f);
+            yield return ShowDialogue("I need to destroy the drones to prevent them from polluting everything!", 3f);
+            yield return ShowDialogue("I have to find something to destroy the drones with!", 3f);
         }
         
         dialoguePanel.SetActive(false);
