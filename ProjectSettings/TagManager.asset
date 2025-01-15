@@ -51,6 +51,9 @@ TagManager:
   - name: background
     uniqueID: 4168774051
     locked: 0
+  - name: ForegroundTilemap
+    uniqueID: 776147557
+    locked: 0
   - name: NPC
     uniqueID: 2709718839
     locked: 0
