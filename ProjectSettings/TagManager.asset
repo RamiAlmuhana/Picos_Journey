@@ -60,6 +60,9 @@ TagManager:
   - name: Gun
     uniqueID: 1987310527
     locked: 0
+  - name: Props
+    uniqueID: 2899160515
+    locked: 0
   - name: Bullets
     uniqueID: 540490741
     locked: 0

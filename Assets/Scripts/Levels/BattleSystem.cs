@@ -40,8 +40,8 @@ public class BattleSystem : MonoBehaviour
             playerMovementScript.canMove = true;
         } else if (activeScene.name == "Level3")
         {
-            dialoguePanel.SetActive(false);
-            playerMovementScript.canMove = true;
+            yield return ShowDialogue("Why is there garbage everywhere?", 3f);
+            yield return ShowDialogue("I have to prevent the drones from polluting the planet!", 3f);
         }
         
         dialoguePanel.SetActive(false);
