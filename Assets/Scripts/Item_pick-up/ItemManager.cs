@@ -6,7 +6,9 @@ public class ItemManager : MonoBehaviour
 {
     public static ItemManager Instance;
     public TMP_Text itemCounterText;
+    public GameObject[] objectsToActivate;
 
+    private int totalItems;
     private int collectedItems;
 
     private void Awake()
@@ -23,7 +25,11 @@ public class ItemManager : MonoBehaviour
 
     private void Start()
     {
+        DeactivateObjects();
+        
+        totalItems = GameObject.FindGameObjectsWithTag("Item").Length;
         collectedItems = 0;
+
         UpdateItemCounter();
     }
 
@@ -31,6 +37,11 @@ public class ItemManager : MonoBehaviour
     {
         collectedItems++;
         UpdateItemCounter();
+        
+        if (collectedItems >= totalItems)
+        {
+            ActivateObjects();
+        }
     }
 
     private void UpdateItemCounter()
@@ -38,18 +49,41 @@ public class ItemManager : MonoBehaviour
         Scene activeScene = SceneManager.GetActiveScene();
         if (activeScene.name == "Level1")
         {
-            itemCounterText.text = $"Water Drops: {collectedItems}";
-            
-        } else if (activeScene.name == "Level2")
+            itemCounterText.text = $"Water Drops: {collectedItems}/{totalItems}";
+        }
+        else if (activeScene.name == "Level2")
         {
-            itemCounterText.text = $"Seed: {collectedItems}";
-        } else if (activeScene.name == "Level3")
+            itemCounterText.text = $"Seed: {collectedItems}/{totalItems}";
+        }
+        else if (activeScene.name == "Level3")
         {
             itemCounterText.text = "";
-        } else if (activeScene.name == "Level4")
-        {
-            itemCounterText.text = $"Garbage: {collectedItems}";
         }
-        
+        else if (activeScene.name == "Level4")
+        {
+            itemCounterText.text = $"Garbage: {collectedItems}/{totalItems}";
+        }
+    }
+
+    private void ActivateObjects()
+    {
+        foreach (GameObject obj in objectsToActivate)
+        {
+            if (obj != null)
+            {
+                obj.SetActive(true);
+            }
+        }
+    }
+
+    private void DeactivateObjects()
+    {
+        foreach (GameObject obj in objectsToActivate)
+        {
+            if (obj != null)
+            {
+                obj.SetActive(false);
+            }
+        }
     }
 }

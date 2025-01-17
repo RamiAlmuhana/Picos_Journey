@@ -11,6 +11,7 @@ TagManager:
   - GeneratedWeapon
   - Weapon
   - Trap
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -71,6 +72,9 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 2971173719
+    locked: 0
+  - name: PickUpItem
+    uniqueID: 3577560611
     locked: 0
   m_RenderingLayers:
   - Default
