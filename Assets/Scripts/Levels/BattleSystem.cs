@@ -31,8 +31,13 @@ public class BattleSystem : MonoBehaviour
         Scene activeScene = SceneManager.GetActiveScene();
         if (activeScene.name == "Level1")
         {
-            yield return ShowDialogue("What's happening?", 3f);
-            yield return ShowDialogue("Why is the ice melting?", 3f);
+            // yield return ShowDialogue("Pico: This… this is no longer our home. The ice is melting faster than ever, and my family has nowhere left to live. I can’t just stand by and watch everything disappear!", 12f);
+            // yield return ShowDialogue("Pico: But why is the ice melting?", 5f);
+            // yield return ShowDialogue("Mother: Pico, you are our only hope. Find a way to stop this. We believe in you.", 8f);
+            // yield return ShowDialogue("Pico: It’s time to set out. I heard the old ice machine might still work. If I collect enough water droplets to power it, maybe it can generate enough ice for us!", 12f);
+            // yield return ShowDialogue("Pico: That way, my family can survive for now… until I find a better solution!", 8f);
+            dialoguePanel.SetActive(false);
+            playerMovementScript.canMove = true;
             
         } else if (activeScene.name == "Level2")
         {
@@ -66,6 +71,7 @@ public class BattleSystem : MonoBehaviour
 
                 foreach (DialogueLine line in trigger.dialogueLines)
                 {
+                    skipDialogue = false;
                     yield return ShowDialogue(line.text, line.duration);
                 }
 
@@ -80,12 +86,14 @@ public class BattleSystem : MonoBehaviour
         dialogueText.text = message;
         float timer = 0f;
 
-        while (timer < duration && !skipDialogue)
+        while (timer < duration)
         {
+            if (skipDialogue) break;
             timer += Time.deltaTime;
             yield return null;
         }
 
         skipDialogue = false;
     }
+
 }
