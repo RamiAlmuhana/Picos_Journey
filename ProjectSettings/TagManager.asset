@@ -57,11 +57,14 @@ TagManager:
   - name: NPC
     uniqueID: 2709718839
     locked: 0
+  - name: Props
+    uniqueID: 2899160515
+    locked: 0
   - name: Gun
     uniqueID: 1987310527
     locked: 0
-  - name: Props
-    uniqueID: 2899160515
+  - name: Enemy
+    uniqueID: 2250745073
     locked: 0
   - name: Bullets
     uniqueID: 540490741

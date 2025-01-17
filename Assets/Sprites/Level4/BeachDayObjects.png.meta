@@ -572,7 +572,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BeachDayObjects_0: -468457005873476536
+      BeachDayObjects_1: 8938449023214873225
+      BeachDayObjects_10: 4874348733710540766
+      BeachDayObjects_11: -1335055590415554422
+      BeachDayObjects_12: -7113313505321193594
+      BeachDayObjects_13: 2186650894451939477
+      BeachDayObjects_14: 2091248154907186404
+      BeachDayObjects_15: -8968698824307607388
+      BeachDayObjects_16: -3801761677745351771
+      BeachDayObjects_17: -5225926239542147103
+      BeachDayObjects_2: -2260591942593794674
+      BeachDayObjects_3: 2969080452078262530
+      BeachDayObjects_4: 9197721920262191291
+      BeachDayObjects_5: 8947692354786725744
+      BeachDayObjects_6: 3758998333071646136
+      BeachDayObjects_7: -681789723480147323
+      BeachDayObjects_8: -4176972742173179132
+      BeachDayObjects_9: -1498723414182914466
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

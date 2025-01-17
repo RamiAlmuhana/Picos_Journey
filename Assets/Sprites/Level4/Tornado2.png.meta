@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: aa55f5e5a2252c945acb0398198a40c9
+guid: 073f694fd0d7f3844be5cdabe8f018cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4210775368222265205
-    second: tf_beach_tileA1_0
+      213: -8696532595536238282
+    second: Tornado2_0
+  - first:
+      213: 1488852977911004739
+    second: Tornado2_1
+  - first:
+      213: 127048840824078526
+    second: Tornado2_2
+  - first:
+      213: -807958005788944591
+    second: Tornado2_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,23 +122,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tf_beach_tileA1_0
+      name: Tornado2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 512
-        height: 384
+        x: 285
+        y: 255
+        width: 201
+        height: 194
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b80b52cbc125095c0800000000000000
-      internalID: -4210775368222265205
+      spriteID: 639e4793ea5bf4780800000000000000
+      internalID: -8696532595536238282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tornado2_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 0
+        width: 193
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0c1726f3e53c100800000000000000
+      internalID: 127048840824078526
       vertices: []
       indices: 
       edges: []
@@ -138,7 +169,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: af915431fb25f6c4799da5b82fe40b39
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +179,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tf_beach_tileA1_0: -4210775368222265205
+      Tornado2_0: -8696532595536238282
+      Tornado2_1: 1488852977911004739
+      Tornado2_2: 127048840824078526
+      Tornado2_3: -807958005788944591
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
