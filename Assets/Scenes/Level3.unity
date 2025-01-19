@@ -2633,6 +2633,122 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eedd311b6f8a6bf44994099991321831, type: 3}
+--- !u!1 &276558382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276558383}
+  - component: {fileID: 276558386}
+  - component: {fileID: 276558385}
+  - component: {fileID: 276558384}
+  m_Layer: 0
+  m_Name: Dialogue (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &276558383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276558382}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 266.86, y: 43.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1813381459}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &276558384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276558382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1b3f86eef66e94ca67d9de4027ebf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1629280402}
+  dialoguePanel: {fileID: 278166173}
+  playerMovementScript: {fileID: 959433291}
+  animator: {fileID: 959433292}
+--- !u!114 &276558385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276558382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f73df19fa84bf6b48288d7fe487297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: "Pico: The polar bear was right\u2026 this is far from over. The polar
+      bear mentioned something about a beach covered in waste."
+    duration: 12
+  - text: "Pico: If I can find it and clean it up, maybe I can recycle the waste
+      and make a difference\u2014not just for my family, but for all the animals
+      struggling to survive!"
+    duration: 15
+--- !u!61 &276558386
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276558382}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0510087, y: 0.7247505}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.328723, y: 2.449501}
+  m_EdgeRadius: 0
 --- !u!1 &276791694
 GameObject:
   m_ObjectHideFlags: 0
@@ -9607,7 +9723,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1030990307370877540, guid: 76e4e1a88d038f74597d334cad7b2f6d, type: 3}
       propertyPath: delay
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1030990307370877540, guid: 76e4e1a88d038f74597d334cad7b2f6d, type: 3}
       propertyPath: moveSpeed
@@ -12396,7 +12512,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - text: "Pico: Almost there\u2026 Just a few more drones to clean up this mess!"
+  - text: "Pico: Almost there\u2026 Just a few more drones and garbage to take care
+      of!"
     duration: 12
 --- !u!61 &792764071
 BoxCollider2D:
@@ -14784,6 +14901,93 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03e9f390fe2330f4f99e7d9dd6a8d138, type: 3}
+--- !u!1 &940177404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 940177406}
+  - component: {fileID: 940177405}
+  m_Layer: 0
+  m_Name: Dumpster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &940177405
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940177404}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -7665592218433183006, guid: 3759a0cccc549f2498ac7d57d3526b84, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.38, y: 1.81}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &940177406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940177404}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 244.07713, y: 43.230217, z: 0.0953825}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1369922259}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &942796148
 GameObject:
   m_ObjectHideFlags: 0
@@ -15807,7 +16011,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1030990307370877540, guid: 76e4e1a88d038f74597d334cad7b2f6d, type: 3}
       propertyPath: delay
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1030990307370877540, guid: 76e4e1a88d038f74597d334cad7b2f6d, type: 3}
       propertyPath: moveSpeed
@@ -17521,10 +17725,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - text: "Pico: What a mess\u2026 Garbage everywhere! And those drones\u2026 they\u2019re
-      making it even worse by dumping more."
+  - text: "Pico: This place is a disaster\u2026 Garbage everywhere! I can\u2019t
+      clean it all, but I\u2019ll do what I can. I\u2019ll pick up some trash and
+      throw it in the bins!"
     duration: 12
-  - text: 'Pico: I need to stop them before it gets completely out of control!'
+  - text: "Pico: And those drones\u2026 they\u2019re making it even worse! I\u2019ll
+      have to destroy them too if I want to save this place!"
     duration: 12
 --- !u!61 &1241197832
 BoxCollider2D:
@@ -17756,7 +17962,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1030990307370877540, guid: 76e4e1a88d038f74597d334cad7b2f6d, type: 3}
       propertyPath: delay
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1030990307370877540, guid: 76e4e1a88d038f74597d334cad7b2f6d, type: 3}
       propertyPath: moveSpeed
@@ -18921,6 +19127,7 @@ Transform:
   - {fileID: 1693824936}
   - {fileID: 454571845}
   - {fileID: 253886589}
+  - {fileID: 940177406}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1381002119 stripped
@@ -19383,11 +19590,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - text: Is that an AK between the garbage?
-    duration: 3
+    duration: 5
   - text: Hopefully the AK is not broken and it works
-    duration: 3
+    duration: 8
   - text: So I can use that to destroy the drones with!
-    duration: 3
+    duration: 8
 --- !u!61 &1458410446
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20312,7 +20519,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1030990307370877540, guid: 76e4e1a88d038f74597d334cad7b2f6d, type: 3}
       propertyPath: delay
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1030990307370877540, guid: 76e4e1a88d038f74597d334cad7b2f6d, type: 3}
       propertyPath: moveSpeed
@@ -20800,7 +21007,7 @@ Transform:
   m_GameObject: {fileID: 1603091641}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.034, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -101589,7 +101796,7 @@ MonoBehaviour:
   - {fileID: 1813834358}
   - {fileID: 647886206}
   requireItems: 1
-  requireEnemies: 1
+  requireEnemies: 0
 --- !u!1 &1804845544
 GameObject:
   m_ObjectHideFlags: 0
@@ -101862,6 +102069,7 @@ Transform:
   - {fileID: 1241197829}
   - {fileID: 792764068}
   - {fileID: 1813834359}
+  - {fileID: 276558383}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1813834358
@@ -101892,7 +102100,7 @@ Transform:
   m_GameObject: {fileID: 1813834358}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 238.34, y: 44, z: 0}
+  m_LocalPosition: {x: 236, y: 44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -101927,6 +102135,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
+  - text: "Pico: There\u2019s the dumpster! Time to get rid of all this garbage and
+      make this place cleaner!"
+    duration: 8
   - text: 'Pico: The garbage is gone, and the drones are destroyed. But how did things
       get this bad?'
     duration: 12
@@ -101966,7 +102177,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0510087, y: 0.7247505}
+  m_Offset: {x: -0.0510087, y: 0.6831207}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -101976,7 +102187,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.328723, y: 2.449501}
+  m_Size: {x: 1.328723, y: 2.5327606}
   m_EdgeRadius: 0
 --- !u!1 &1817672150
 GameObject:
@@ -103293,144 +103504,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 724f46b373946244a9054b70b68d84c2, type: 3}
---- !u!1 &2006414295
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2089479486741890913, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
-  m_PrefabInstance: {fileID: 491169053}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2006414296}
-  - component: {fileID: 2006414299}
-  - component: {fileID: 2006414298}
-  - component: {fileID: 2006414297}
-  m_Layer: 0
-  m_Name: Garbage (1)
-  m_TagString: Item
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2006414296
+--- !u!4 &2006414296 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 4853733881415822247, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
   m_PrefabInstance: {fileID: 491169053}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2006414295}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.32, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 391613478}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &2006414297
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4537466222545600536, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
-  m_PrefabInstance: {fileID: 491169053}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2006414295}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.007033527, y: 0}
-  m_Radius: 0.37964743
---- !u!114 &2006414298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3515207949804080876, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
-  m_PrefabInstance: {fileID: 491169053}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2006414295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 843fc8d12433dbd49a9a3e93af7a18da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collectSound: {fileID: 8300000, guid: 8ae6e096c553eaa429b25f959c6260ac, type: 3}
---- !u!212 &2006414299
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6493185548732511671, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
-  m_PrefabInstance: {fileID: 491169053}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2006414295}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -717406685
-  m_SortingLayer: 7
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 6622530878234142804, guid: 6143fbc340984b9439d82fa32354f239, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.67, y: 0.94}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &2024164132
 GameObject:
   m_ObjectHideFlags: 0
@@ -104530,34 +104608,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1848313772604505105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3515207949804080876, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
-  m_PrefabInstance: {fileID: 3704088201119361880}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3921080163588528147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 843fc8d12433dbd49a9a3e93af7a18da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collectSound: {fileID: 8300000, guid: 8ae6e096c553eaa429b25f959c6260ac, type: 3}
---- !u!4 &1996806821225786185
+--- !u!4 &1996806821225786185 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 4853733881415822247, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
   m_PrefabInstance: {fileID: 3704088201119361880}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3921080163588528147}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 391613478}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2576146191675228300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104704,25 +104759,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
---- !u!1 &3921080163588528147
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2089479486741890913, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
-  m_PrefabInstance: {fileID: 3704088201119361880}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1996806821225786185}
-  - component: {fileID: 5684890732759427541}
-  - component: {fileID: 1848313772604505105}
-  - component: {fileID: 7482407148787921069}
-  m_Layer: 0
-  m_Name: Garbage
-  m_TagString: Item
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1001 &4184205368529413163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104869,61 +104905,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fc2e9f8a85699d4592fbadd9ea4fe3d, type: 3}
---- !u!212 &5684890732759427541
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6493185548732511671, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
-  m_PrefabInstance: {fileID: 3704088201119361880}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3921080163588528147}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -717406685
-  m_SortingLayer: 7
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 6622530878234142804, guid: 6143fbc340984b9439d82fa32354f239, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.67, y: 0.94}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1001 &6234495916590975127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104985,42 +104966,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eedd311b6f8a6bf44994099991321831, type: 3}
---- !u!58 &7482407148787921069
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4537466222545600536, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
-  m_PrefabInstance: {fileID: 3704088201119361880}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3921080163588528147}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.007033527, y: 0}
-  m_Radius: 0.37964743
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class BattleSystem : MonoBehaviour
     public Animator animator;
 
     private bool skipDialogue;
+    private Coroutine activeDialogueCoroutine;
 
     void Start()
     {
@@ -57,6 +58,12 @@ public class BattleSystem : MonoBehaviour
 
             if (trigger != null)
             {
+                if (activeDialogueCoroutine != null)
+                {
+                    StopCoroutine(activeDialogueCoroutine);
+                    activeDialogueCoroutine = null;
+                }
+
                 animator.SetBool("run", false);
                 animator.SetBool("walkWithAK", false);
                 animator.SetBool("grounded", true);
@@ -67,9 +74,11 @@ public class BattleSystem : MonoBehaviour
                 foreach (DialogueLine line in trigger.dialogueLines)
                 {
                     skipDialogue = false;
-                    yield return ShowDialogue(line.text, line.duration);
+                    activeDialogueCoroutine = StartCoroutine(ShowDialogue(line.text, line.duration));
+                    yield return activeDialogueCoroutine;
                 }
 
+                activeDialogueCoroutine = null;
                 dialoguePanel.SetActive(false);
                 playerMovementScript.canMove = true;
             }
