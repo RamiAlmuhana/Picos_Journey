@@ -68790,7 +68790,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 285359239
-  m_SortingLayer: 7
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: -3509773553796947151, guid: f253be33fd2efcb4caf84fcf94bb410f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -72819,7 +72819,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1802857243}
   - component: {fileID: 1802857242}
-  - component: {fileID: 1802857244}
   - component: {fileID: 1802857245}
   m_Layer: 0
   m_Name: GameManager
@@ -72859,20 +72858,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1802857244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802857241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea81dae4b487c4141ab4ec5fe1d2ed64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyCounterText: {fileID: 721072345}
-  levelCompleteTrigger: {fileID: 0}
 --- !u!114 &1802857245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72886,8 +72871,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemCounterText: {fileID: 516746164}
+  enemyCounterText: {fileID: 721072345}
   objectsToActivate:
   - {fileID: 1067371349}
+  requireItems: 1
+  requireEnemies: 1
 --- !u!1 &1807673381 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3204085080217915948, guid: 76e4e1a88d038f74597d334cad7b2f6d, type: 3}

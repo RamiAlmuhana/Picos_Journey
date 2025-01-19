@@ -3,7 +3,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelManager : MonoBehaviour
+public class LevelChanger : MonoBehaviour
 {
     [SerializeField]
     private string nextLevelName;

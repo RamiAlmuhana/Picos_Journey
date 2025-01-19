@@ -21,7 +21,7 @@ public class EnemyHealth : MonoBehaviour
 
         if (enemyHealth <= 0)
         {
-            EnemyManager.Instance.EnemyDefeated();
+            LevelProgressManager.Instance.EnemyDefeated();
             Destroy(gameObject);
         }
     }

@@ -13,7 +13,7 @@ public class ItemPickUp : MonoBehaviour
                 PlaySoundAndDestroy(collectSound);
             }
 
-            ItemManager.Instance.CollectItem();
+            LevelProgressManager.Instance.CollectItem();
             Destroy(gameObject);
         }
     }

@@ -11179,7 +11179,7 @@ GameObject:
   - component: {fileID: 637038781}
   - component: {fileID: 637038780}
   m_Layer: 5
-  m_Name: EnemyCounter (1)
+  m_Name: CoinCounter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101532,7 +101532,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1802857243}
   - component: {fileID: 1802857242}
-  - component: {fileID: 1802857244}
   - component: {fileID: 1802857245}
   m_Layer: 0
   m_Name: GameManager
@@ -101572,20 +101571,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1802857244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802857241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea81dae4b487c4141ab4ec5fe1d2ed64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyCounterText: {fileID: 2132599651}
-  levelCompleteTrigger: {fileID: 647886206}
 --- !u!114 &1802857245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101599,8 +101584,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemCounterText: {fileID: 637038780}
+  enemyCounterText: {fileID: 2132599651}
   objectsToActivate:
   - {fileID: 1813834358}
+  - {fileID: 647886206}
+  requireItems: 1
+  requireEnemies: 1
 --- !u!1 &1804845544
 GameObject:
   m_ObjectHideFlags: 0
@@ -104593,6 +104582,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6233231273007417612, guid: 124c945a7abbffe49aae480391cf194e, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 6233231273007417612, guid: 124c945a7abbffe49aae480391cf194e, type: 3}
       propertyPath: m_Name
       value: LevelChanger
