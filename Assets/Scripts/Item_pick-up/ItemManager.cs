@@ -57,7 +57,7 @@ public class ItemManager : MonoBehaviour
         }
         else if (activeScene.name == "Level3")
         {
-            itemCounterText.text = "";
+            itemCounterText.text = $"Garbage: {collectedItems}/{totalItems}";
         }
         else if (activeScene.name == "Level4")
         {

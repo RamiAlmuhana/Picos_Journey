@@ -58,23 +58,26 @@ TagManager:
   - name: NPC
     uniqueID: 2709718839
     locked: 0
+  - name: Traps
+    uniqueID: 3367667227
+    locked: 0
   - name: Gun
     uniqueID: 1987310527
     locked: 0
   - name: Props
     uniqueID: 2899160515
     locked: 0
+  - name: PickUpItem
+    uniqueID: 3577560611
+    locked: 0
+  - name: Ground
+    uniqueID: 2971173719
+    locked: 0
   - name: Bullets
     uniqueID: 540490741
     locked: 0
   - name: Player
     uniqueID: 285359239
-    locked: 0
-  - name: Ground
-    uniqueID: 2971173719
-    locked: 0
-  - name: PickUpItem
-    uniqueID: 3577560611
     locked: 0
   m_RenderingLayers:
   - Default
