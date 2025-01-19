@@ -53,7 +53,7 @@ public class ItemManager : MonoBehaviour
         }
         else if (activeScene.name == "Level2")
         {
-            itemCounterText.text = $"Seed: {collectedItems}/{totalItems}";
+            itemCounterText.text = $"Seeds: {collectedItems}/{totalItems}";
         }
         else if (activeScene.name == "Level3")
         {
@@ -61,7 +61,7 @@ public class ItemManager : MonoBehaviour
         }
         else if (activeScene.name == "Level4")
         {
-            itemCounterText.text = $"Garbage: {collectedItems}/{totalItems}";
+            itemCounterText.text = $"Plastic: {collectedItems}/{totalItems}";
         }
     }
 
