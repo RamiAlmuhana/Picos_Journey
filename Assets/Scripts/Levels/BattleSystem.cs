@@ -11,6 +11,7 @@ public class BattleSystem : MonoBehaviour
     public Animator animator;
 
     private bool skipDialogue;
+    private Coroutine activeDialogueCoroutine;
 
     void Start()
     {
@@ -31,8 +32,8 @@ public class BattleSystem : MonoBehaviour
         Scene activeScene = SceneManager.GetActiveScene();
         if (activeScene.name == "Level1")
         {
-            yield return ShowDialogue("What's happening?", 3f);
-            yield return ShowDialogue("Why is the ice melting?", 3f);
+            dialoguePanel.SetActive(false);
+            playerMovementScript.canMove = true;
             
         } else if (activeScene.name == "Level2")
         {
@@ -40,9 +41,9 @@ public class BattleSystem : MonoBehaviour
             playerMovementScript.canMove = true;
         } else if (activeScene.name == "Level3")
         {
-            yield return ShowDialogue("Why is there garbage everywhere?", 3f);
-            yield return ShowDialogue("I need to destroy the drones to prevent them from polluting everything!", 3f);
-            yield return ShowDialogue("I have to find something to destroy the drones with!", 3f);
+            dialoguePanel.SetActive(false);
+            playerMovementScript.canMove = true;
+            yield break;
         }
         
         dialoguePanel.SetActive(false);
@@ -57,6 +58,12 @@ public class BattleSystem : MonoBehaviour
 
             if (trigger != null)
             {
+                if (activeDialogueCoroutine != null)
+                {
+                    StopCoroutine(activeDialogueCoroutine);
+                    activeDialogueCoroutine = null;
+                }
+
                 animator.SetBool("run", false);
                 animator.SetBool("walkWithAK", false);
                 animator.SetBool("grounded", true);
@@ -66,9 +73,12 @@ public class BattleSystem : MonoBehaviour
 
                 foreach (DialogueLine line in trigger.dialogueLines)
                 {
-                    yield return ShowDialogue(line.text, line.duration);
+                    skipDialogue = false;
+                    activeDialogueCoroutine = StartCoroutine(ShowDialogue(line.text, line.duration));
+                    yield return activeDialogueCoroutine;
                 }
 
+                activeDialogueCoroutine = null;
                 dialoguePanel.SetActive(false);
                 playerMovementScript.canMove = true;
             }
@@ -80,12 +90,14 @@ public class BattleSystem : MonoBehaviour
         dialogueText.text = message;
         float timer = 0f;
 
-        while (timer < duration && !skipDialogue)
+        while (timer < duration)
         {
+            if (skipDialogue) break;
             timer += Time.deltaTime;
             yield return null;
         }
 
         skipDialogue = false;
     }
+
 }

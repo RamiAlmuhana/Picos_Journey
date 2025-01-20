@@ -275,7 +275,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7924080129222874777, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
+  m_Sprite: {fileID: -1736725521487448968, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -535,7 +535,7 @@ MonoBehaviour:
   bullet: {fileID: 4905132208955563058, guid: ad4066e5daa92464ebe117c356ce1334, type: 3}
   bulletPosition: {fileID: 6805539285566137891}
   enemyRange: 14
-  fireRate: 0.5
+  fireRate: 1
 --- !u!95 &5202965475264073464
 Animator:
   serializedVersion: 7
@@ -586,16 +586,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 9113473488112580865}
   healthSprites:
-  - {fileID: 402216073127369487, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: 3620555437404738987, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: -5376161508947427188, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: -2965802531537930626, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: 1956525396781488186, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: -6219359559898611187, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: -5430507049671424643, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: 7037272668706449392, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: 5563486781262992350, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
-  - {fileID: -7924080129222874777, guid: 315d95593f080f842a713b4f8bd6eff7, type: 3}
+  - {fileID: 206751099104391259, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+  - {fileID: -4443579370543060534, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+  - {fileID: 4253674162232586732, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+  - {fileID: -8484537441074856372, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+  - {fileID: -4271094819718557005, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+  - {fileID: 5218714529541500465, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+  - {fileID: -706364726381150469, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+  - {fileID: -2354850243554095657, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+  - {fileID: 8003581379365148831, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
+  - {fileID: -1736725521487448968, guid: c23691ba507f0f64ca284368aca081d9, type: 3}
 --- !u!1 &7212264373105466775
 GameObject:
   m_ObjectHideFlags: 0
