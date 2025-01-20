@@ -12,6 +12,7 @@ TagManager:
   - Weapon
   - Trap
   - Item
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -72,6 +73,7 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 2971173719
+    locked: 0
   - name: Enemy
     uniqueID: 2250745073
     locked: 0
