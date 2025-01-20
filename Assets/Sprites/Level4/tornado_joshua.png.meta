@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: 3e70e161aaf66034a9716c097eb0d20e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2535728771912076444
+    second: tornado_joshua_0
+  - first:
+      213: 7127910334276438899
+    second: tornado_joshua_1
+  - first:
+      213: 2600308688531925937
+    second: tornado_joshua_2
+  - first:
+      213: 4661705116982018746
+    second: tornado_joshua_3
+  - first:
+      213: 637350636997339966
+    second: tornado_joshua_4
+  - first:
+      213: 1797980819592369220
+    second: tornado_joshua_5
+  - first:
+      213: -9200135617096771524
+    second: tornado_joshua_6
+  - first:
+      213: -5203371389532106782
+    second: tornado_joshua_7
+  - first:
+      213: 3901416626742250582
+    second: tornado_joshua_8
+  - first:
+      213: 4824405866574591963
+    second: tornado_joshua_9
+  - first:
+      213: -6416173391397330660
+    second: tornado_joshua_10
+  - first:
+      213: 4981264320391887599
+    second: tornado_joshua_11
+  - first:
+      213: 1143552876264786892
+    second: tornado_joshua_12
+  - first:
+      213: -8439246439217580265
+    second: tornado_joshua_13
+  - first:
+      213: 7741852559456920671
+    second: tornado_joshua_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tornado_joshua_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 439
+        height: 687
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c8e8812e7b03320800000000000000
+      internalID: 2535728771912076444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tornado_joshua_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 608
+        width: 285
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b02690fac6be260800000000000000
+      internalID: 7127910334276438899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tornado_joshua_2
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 607
+        width: 210
+        height: 408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbae46a9f6261420800000000000000
+      internalID: 2600308688531925937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tornado_joshua_5
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 298
+        width: 273
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444d4c08706b3f810800000000000000
+      internalID: 1797980819592369220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tornado_joshua_7
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 296
+        width: 196
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef02843a49e9c7b0800000000000000
+      internalID: -5203371389532106782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tornado_joshua_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 208
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c46cd50cd942630800000000000000
+      internalID: 3901416626742250582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tornado_joshua_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 259
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd73d79239bb3f240800000000000000
+      internalID: 4824405866574591963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tornado_joshua_10
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 228
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11e27c7b4c25f6a0800000000000000
+      internalID: -6416173391397330660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tornado_joshua_12
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 0
+        width: 210
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb83ab3847bedf00800000000000000
+      internalID: 1143552876264786892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b58368bb482ab4a40a7fc7f08abe6313
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tornado_joshua_0: 2535728771912076444
+      tornado_joshua_1: 7127910334276438899
+      tornado_joshua_10: -6416173391397330660
+      tornado_joshua_11: 4981264320391887599
+      tornado_joshua_12: 1143552876264786892
+      tornado_joshua_13: -8439246439217580265
+      tornado_joshua_14: 7741852559456920671
+      tornado_joshua_2: 2600308688531925937
+      tornado_joshua_3: 4661705116982018746
+      tornado_joshua_4: 637350636997339966
+      tornado_joshua_5: 1797980819592369220
+      tornado_joshua_6: -9200135617096771524
+      tornado_joshua_7: -5203371389532106782
+      tornado_joshua_8: 3901416626742250582
+      tornado_joshua_9: 4824405866574591963
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
