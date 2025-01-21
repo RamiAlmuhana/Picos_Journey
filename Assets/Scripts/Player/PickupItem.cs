@@ -39,6 +39,8 @@ public class PickupItem : MonoBehaviour
                 playerAnimator.SetBool("HasShotgun", false);
                 playerAnimator.SetBool("walkWithAK", false);
                 playerAnimator.SetBool("walkWithShotgun", false);
+                
+
             }
             else if (isShotgun)
             {
@@ -56,6 +58,7 @@ public class PickupItem : MonoBehaviour
             {
                 playerMovement.hasAK = true;
                 playerMovement.hasPistol = false;
+                playerMovement.hasShotgun = false;
                 Animator playerAnimator = player.GetComponent<Animator>();
                 playerAnimator.SetBool("HasAK", true);
                 playerAnimator.SetBool("HasPistol", false);

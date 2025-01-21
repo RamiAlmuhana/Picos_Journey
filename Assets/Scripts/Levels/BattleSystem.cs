@@ -66,6 +66,8 @@ public class BattleSystem : MonoBehaviour
 
                 animator.SetBool("run", false);
                 animator.SetBool("walkWithAK", false);
+                animator.SetBool("walkWithPistol", false);
+                animator.SetBool("walkWithShotgun", false);
                 animator.SetBool("grounded", true);
 
                 dialoguePanel.SetActive(true);
