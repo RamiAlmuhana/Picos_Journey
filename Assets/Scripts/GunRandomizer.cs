@@ -6,6 +6,7 @@ public class GunRandomizer : MonoBehaviour
 {
     public List<GameObject> weaponPrefabs;
     public Transform spawnPoint;
+    public float seconds = 10;
     private GameObject currentWeapon;
     private bool isRespawning = false;
 
@@ -42,7 +43,7 @@ public class GunRandomizer : MonoBehaviour
     IEnumerator RespawnWeapon()
     {
         isRespawning = true;
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(seconds);
         SpawnRandomWeapon();
     }
 }
