@@ -10,4 +10,5 @@ public class DialogueLine
 public class DialogueTrigger : MonoBehaviour
 {
     public DialogueLine[] dialogueLines;
+    public bool destroyAfterDialogue = false;
 }

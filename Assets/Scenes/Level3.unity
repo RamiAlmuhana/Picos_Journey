@@ -2763,7 +2763,7 @@ GameObject:
   - component: {fileID: 276558383}
   - component: {fileID: 276558386}
   - component: {fileID: 276558385}
-  - component: {fileID: 276558384}
+  - component: {fileID: 276558387}
   m_Layer: 0
   m_Name: Dialogue (4)
   m_TagString: Untagged
@@ -2786,22 +2786,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1813381459}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &276558384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 276558382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af1b3f86eef66e94ca67d9de4027ebf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueText: {fileID: 1629280402}
-  dialoguePanel: {fileID: 278166173}
-  playerMovementScript: {fileID: 959433291}
-  animator: {fileID: 959433292}
 --- !u!114 &276558385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2822,6 +2806,7 @@ MonoBehaviour:
       and make a difference\u2014not just for my family, but for all the animals
       struggling to survive!"
     duration: 15
+  destroyAfterDialogue: 0
 --- !u!61 &276558386
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2868,6 +2853,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.328723, y: 2.449501}
   m_EdgeRadius: 0
+--- !u!114 &276558387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276558382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ec15a8e722dce429820297c8d2a233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1629280402}
+  dialoguePanel: {fileID: 278166173}
+  playerMovementScript: {fileID: 959433291}
+  animator: {fileID: 959433292}
 --- !u!1 &276791694
 GameObject:
   m_ObjectHideFlags: 0
@@ -12659,7 +12660,7 @@ GameObject:
   - component: {fileID: 792764068}
   - component: {fileID: 792764071}
   - component: {fileID: 792764070}
-  - component: {fileID: 792764069}
+  - component: {fileID: 792764072}
   m_Layer: 0
   m_Name: Dialogue (2)
   m_TagString: Untagged
@@ -12682,22 +12683,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1813381459}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &792764069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 792764067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af1b3f86eef66e94ca67d9de4027ebf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueText: {fileID: 1629280402}
-  dialoguePanel: {fileID: 278166173}
-  playerMovementScript: {fileID: 959433291}
-  animator: {fileID: 959433292}
 --- !u!114 &792764070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12714,6 +12699,7 @@ MonoBehaviour:
   - text: "Pico: Almost there\u2026 Just a few more drones and garbage to take care
       of!"
     duration: 12
+  destroyAfterDialogue: 0
 --- !u!61 &792764071
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12760,6 +12746,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.328723, y: 2.449501}
   m_EdgeRadius: 0
+--- !u!114 &792764072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792764067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ec15a8e722dce429820297c8d2a233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1629280402}
+  dialoguePanel: {fileID: 278166173}
+  playerMovementScript: {fileID: 959433291}
+  animator: {fileID: 959433292}
 --- !u!1 &793107409
 GameObject:
   m_ObjectHideFlags: 0
@@ -17825,7 +17827,7 @@ GameObject:
   - component: {fileID: 1241197829}
   - component: {fileID: 1241197832}
   - component: {fileID: 1241197831}
-  - component: {fileID: 1241197830}
+  - component: {fileID: 1241197833}
   m_Layer: 0
   m_Name: Dialogue (1)
   m_TagString: Untagged
@@ -17848,22 +17850,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1813381459}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1241197830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241197828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af1b3f86eef66e94ca67d9de4027ebf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueText: {fileID: 1629280402}
-  dialoguePanel: {fileID: 278166173}
-  playerMovementScript: {fileID: 959433291}
-  animator: {fileID: 959433292}
 --- !u!114 &1241197831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17884,6 +17870,7 @@ MonoBehaviour:
   - text: "Pico: And those drones\u2026 they\u2019re making it even worse! I\u2019ll
       have to destroy them too if I want to save this place!"
     duration: 12
+  destroyAfterDialogue: 0
 --- !u!61 &1241197832
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17930,6 +17917,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.328723, y: 1.6588328}
   m_EdgeRadius: 0
+--- !u!114 &1241197833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241197828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ec15a8e722dce429820297c8d2a233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1629280402}
+  dialoguePanel: {fileID: 278166173}
+  playerMovementScript: {fileID: 959433291}
+  animator: {fileID: 959433292}
 --- !u!1 &1244249119
 GameObject:
   m_ObjectHideFlags: 0
@@ -19866,6 +19869,7 @@ MonoBehaviour:
     duration: 8
   - text: So I can use that to destroy the drones with!
     duration: 8
+  destroyAfterDialogue: 0
 --- !u!61 &1458410446
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19921,7 +19925,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1458410443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af1b3f86eef66e94ca67d9de4027ebf5, type: 3}
+  m_Script: {fileID: 11500000, guid: 62ec15a8e722dce429820297c8d2a233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1629280402}
@@ -102138,7 +102142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1802857243}
-  - component: {fileID: 1802857242}
+  - component: {fileID: 1802857246}
   - component: {fileID: 1802857245}
   m_Layer: 0
   m_Name: GameManager
@@ -102147,22 +102151,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1802857242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802857241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af1b3f86eef66e94ca67d9de4027ebf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueText: {fileID: 1629280402}
-  dialoguePanel: {fileID: 278166173}
-  playerMovementScript: {fileID: 959433291}
-  animator: {fileID: 959433292}
 --- !u!4 &1802857243
 Transform:
   m_ObjectHideFlags: 0
@@ -102197,6 +102185,22 @@ MonoBehaviour:
   - {fileID: 647886206}
   requireItems: 1
   requireEnemies: 1
+--- !u!114 &1802857246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802857241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ec15a8e722dce429820297c8d2a233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1629280402}
+  dialoguePanel: {fileID: 278166173}
+  playerMovementScript: {fileID: 959433291}
+  animator: {fileID: 959433292}
 --- !u!1 &1804845544
 GameObject:
   m_ObjectHideFlags: 0
@@ -102483,7 +102487,7 @@ GameObject:
   - component: {fileID: 1813834359}
   - component: {fileID: 1813834362}
   - component: {fileID: 1813834361}
-  - component: {fileID: 1813834360}
+  - component: {fileID: 1813834363}
   m_Layer: 0
   m_Name: Dialogue (3)
   m_TagString: Untagged
@@ -102506,22 +102510,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1813381459}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1813834360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813834358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af1b3f86eef66e94ca67d9de4027ebf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueText: {fileID: 1629280402}
-  dialoguePanel: {fileID: 278166173}
-  playerMovementScript: {fileID: 959433291}
-  animator: {fileID: 959433292}
 --- !u!114 &1813834361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102543,6 +102531,7 @@ MonoBehaviour:
     duration: 12
   - text: 'Pico: Someone is behind all this. I need to keep going and find out who!'
     duration: 8
+  destroyAfterDialogue: 0
 --- !u!61 &1813834362
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -102589,6 +102578,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.328723, y: 2.5327606}
   m_EdgeRadius: 0
+--- !u!114 &1813834363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813834358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ec15a8e722dce429820297c8d2a233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1629280402}
+  dialoguePanel: {fileID: 278166173}
+  playerMovementScript: {fileID: 959433291}
+  animator: {fileID: 959433292}
 --- !u!1 &1817672150
 GameObject:
   m_ObjectHideFlags: 0
@@ -105177,7 +105182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4853733881415822247, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.43
+      value: 6.1
       objectReference: {fileID: 0}
     - target: {fileID: 4853733881415822247, guid: 33961b7e3f360c24983a2ab81410081b, type: 3}
       propertyPath: m_LocalPosition.z

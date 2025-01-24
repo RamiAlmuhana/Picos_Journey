@@ -268,7 +268,6 @@ GameObject:
   - component: {fileID: 8780014705327941798}
   - component: {fileID: 457507528335982871}
   - component: {fileID: 1102950400975899054}
-  - component: {fileID: 7862288337229253688}
   m_Layer: 0
   m_Name: Drone
   m_TagString: Enemy
@@ -401,6 +400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: 30
   maxHealth: 30
+  bombPrefab: {fileID: 0}
 --- !u!114 &8780014705327941798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,19 +504,6 @@ PolygonCollider2D:
       - {x: 0.76, y: -0.29999998}
       - {x: 0.76, y: -0.099999994}
   m_UseDelaunayMesh: 0
---- !u!114 &7862288337229253688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4140070778180247982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d5013d370d51e949aab7ebc4f6ebeca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
 --- !u!1 &6481710328366681496
 GameObject:
   m_ObjectHideFlags: 0
