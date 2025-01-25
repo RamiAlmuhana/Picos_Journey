@@ -24,6 +24,9 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Return))
             skipDialogue = true;
+        
+        if (Input.GetKeyDown(KeyCode.Escape))
+            SceneManager.LoadScene("Main Menu");
     }
 
     private IEnumerator SetupBattle()
