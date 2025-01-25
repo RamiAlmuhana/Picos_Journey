@@ -36471,17 +36471,17 @@ MonoBehaviour:
   - text: "Pico: Mother! I did it. I stopped the destruction. The ice, the forests,
       the oceans\u2014they all have a chance to heal now."
     duration: 12
-  - text: "Mother Penguin: Pico\u2026 I\u2019m so proud of you. We were all so scared,
-      but you never gave up. You\u2019ve given us hope again."
+  - text: "Mother: Pico\u2026 I\u2019m so proud of you. We were all so scared, but
+      you never gave up. You\u2019ve given us hope again."
     duration: 12
-  - text: "Mother Penguin: Pico\u2026 I\u2019m so proud of you. We were all so scared,
-      but you never gave up. You\u2019ve given us hope again."
+  - text: "Mother: Pico\u2026 I\u2019m so proud of you. We were all so scared, but
+      you never gave up. You\u2019ve given us hope again."
     duration: 12
   - text: "Pico: I couldn\u2019t have done it without thinking of you and everyone
       else. This is our home, and I\u2019ll do whatever it takes to protect it."
     duration: 12
-  - text: "Mother Penguin: You\u2019ve done more than protect it, Pico. You\u2019ve
-      shown us all that even the smallest among us can make the biggest difference."
+  - text: "Mother: You\u2019ve done more than protect it, Pico. You\u2019ve shown
+      us all that even the smallest among us can make the biggest difference."
     duration: 12
   destroyAfterDialogue: 0
 --- !u!61 &1294492230
