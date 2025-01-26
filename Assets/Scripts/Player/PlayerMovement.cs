@@ -18,15 +18,15 @@ public class PlayerMovement : MonoBehaviour
     public bool hasShotgun = false;
 
     [SerializeField]
-    private AudioClip jumpSound; // Variable for the jump sound
+    private AudioClip jumpSound;
 
-    private AudioSource audioSource; // Audio source component to play sounds
+    private AudioSource audioSource;
 
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        audioSource = GetComponent<AudioSource>(); // Get the AudioSource component
+        audioSource = GetComponent<AudioSource>(); 
     }
 
     private void Update()

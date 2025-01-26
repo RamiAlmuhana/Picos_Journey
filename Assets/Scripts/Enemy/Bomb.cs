@@ -8,13 +8,11 @@ public class Bomb : MonoBehaviour
 
     private void Start()
     {
-        // Start een timer voor de explosie
         Invoke("Explode", explosionDelay);
     }
 
     private void Explode()
     {
-        // Voeg logica toe voor schade of effecten
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, explosionRadius);
         foreach (Collider2D hit in hits)
         {
@@ -23,14 +21,12 @@ public class Bomb : MonoBehaviour
                 hit.GetComponent<PlayerHealth>().health -= damage;
             }
         }
-
-        // Speel een explosie-effect en verwijder de bom
+        
         Destroy(gameObject);
     }
 
     private void OnDrawGizmosSelected()
     {
-        // Teken de explosieradius in de editor
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, explosionRadius);
     }

@@ -5,7 +5,6 @@ public class PickupItem : MonoBehaviour
     public GameObject player;
     public bool isPistol;
     public bool isShotgun;
-    private GunRandomizer gunRandomizer;
 
     private void Start()
     {
@@ -13,19 +12,12 @@ public class PickupItem : MonoBehaviour
         {
             player = GameObject.FindWithTag("Player");
         }
-
-        gunRandomizer = Object.FindFirstObjectByType<GunRandomizer>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            if (gameObject.CompareTag("GeneratedWeapon") && gunRandomizer != null)
-            {
-                gunRandomizer.WeaponPickedUp();
-            }
-            
             PlayerMovement playerMovement = player.GetComponent<PlayerMovement>();
 
             if (isPistol)
