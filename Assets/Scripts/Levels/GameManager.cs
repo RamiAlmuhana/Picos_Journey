@@ -11,12 +11,18 @@ public class GameManager : MonoBehaviour
     public GameObject dialoguePanel;
     public PlayerMovement playerMovementScript;
     public Animator animator;
+    public AudioSource backgroundMusic;
 
     private bool skipDialogue;
     private Coroutine activeDialogueCoroutine;
 
     void Start()
     {
+        if (backgroundMusic != null)
+        {
+            backgroundMusic.loop = true;
+            PlayBackgroundMusic();
+        }
         StartCoroutine(SetupBattle());
     }
 
@@ -24,7 +30,7 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Return))
             skipDialogue = true;
-        
+
         if (Input.GetKeyDown(KeyCode.Escape))
             SceneManager.LoadScene("Main Menu");
     }
@@ -33,7 +39,7 @@ public class GameManager : MonoBehaviour
     {
         playerMovementScript.canMove = false;
         dialoguePanel.SetActive(true);
-        
+
         Scene activeScene = SceneManager.GetActiveScene();
         if (activeScene.name == "Level1")
         {
@@ -91,7 +97,7 @@ public class GameManager : MonoBehaviour
                 dialoguePanel.SetActive(false);
                 playerMovementScript.canMove = true;
                 isDialogueActive = false;
-                
+
                 if (trigger.destroyAfterDialogue)
                 {
                     Destroy(trigger.gameObject);
@@ -113,5 +119,13 @@ public class GameManager : MonoBehaviour
         }
 
         skipDialogue = false;
+    }
+
+    private void PlayBackgroundMusic()
+    {
+        if (backgroundMusic != null && backgroundMusic.clip != null)
+        {
+            backgroundMusic.Play();
+        }
     }
 }

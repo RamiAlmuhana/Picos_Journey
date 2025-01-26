@@ -2869,6 +2869,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 278166173}
   playerMovementScript: {fileID: 959433291}
   animator: {fileID: 959433292}
+  backgroundMusic: {fileID: 0}
 --- !u!1 &276791694
 GameObject:
   m_ObjectHideFlags: 0
@@ -11512,7 +11513,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1664.3, y: -31.34989}
+  m_AnchoredPosition: {x: -1664.3, y: -31.349884}
   m_SizeDelta: {x: 274.44, y: 44.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &637038780
@@ -12762,6 +12763,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 278166173}
   playerMovementScript: {fileID: 959433291}
   animator: {fileID: 959433292}
+  backgroundMusic: {fileID: 0}
 --- !u!1 &793107409
 GameObject:
   m_ObjectHideFlags: 0
@@ -17933,6 +17935,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 278166173}
   playerMovementScript: {fileID: 959433291}
   animator: {fileID: 959433292}
+  backgroundMusic: {fileID: 0}
 --- !u!1 &1244249119
 GameObject:
   m_ObjectHideFlags: 0
@@ -18141,7 +18144,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -31.34989}
+  m_AnchoredPosition: {x: 0, y: -31.349884}
   m_SizeDelta: {x: 274.44, y: 44.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1254510664
@@ -20072,6 +20075,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 278166173}
   playerMovementScript: {fileID: 959433291}
   animator: {fileID: 959433292}
+  backgroundMusic: {fileID: 0}
 --- !u!1 &1461818014
 GameObject:
   m_ObjectHideFlags: 0
@@ -102285,6 +102289,7 @@ GameObject:
   - component: {fileID: 1802857243}
   - component: {fileID: 1802857246}
   - component: {fileID: 1802857245}
+  - component: {fileID: 1802857247}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -102342,6 +102347,104 @@ MonoBehaviour:
   dialoguePanel: {fileID: 278166173}
   playerMovementScript: {fileID: 959433291}
   animator: {fileID: 959433292}
+  backgroundMusic: {fileID: 1802857247}
+--- !u!82 &1802857247
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802857241}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bb980d8d951e6e44795350d0fe605457, type: 3}
+  m_Resource: {fileID: 8300000, guid: bb980d8d951e6e44795350d0fe605457, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.07
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1804845544
 GameObject:
   m_ObjectHideFlags: 0
@@ -102735,6 +102838,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 278166173}
   playerMovementScript: {fileID: 959433291}
   animator: {fileID: 959433292}
+  backgroundMusic: {fileID: 0}
 --- !u!1 &1817672150
 GameObject:
   m_ObjectHideFlags: 0

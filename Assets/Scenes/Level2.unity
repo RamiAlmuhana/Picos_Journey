@@ -82132,7 +82132,7 @@ MonoBehaviour:
   akBulletPrefab: {fileID: 5742649945334209667, guid: 7710845bd5bfe0642848b48597f6cff2, type: 3}
   pistolBulletPrefab: {fileID: 5742649945334209667, guid: 57421f15903ebb743856328a2ea02a3c, type: 3}
   shotgunBulletPrefab: {fileID: 5742649945334209667, guid: 9b55a6f8521ab7a4caa8740717be2d35, type: 3}
-  pistolCooldown: 0.5
+  pistolCooldown: 0.4
   akCooldown: 0.25
   shotgunCooldown: 1
   akSoundEffect: {fileID: 8300000, guid: c4489d3504fc06748a7331695a3b682b, type: 3}
@@ -83256,6 +83256,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1592210481}
   playerMovementScript: {fileID: 959433291}
   animator: {fileID: 959433292}
+  backgroundMusic: {fileID: 0}
 --- !u!4 &1078613210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3524107090038082505, guid: e25765aebe58e5547be8f776b19546a3, type: 3}
@@ -85339,6 +85340,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1592210481}
   playerMovementScript: {fileID: 959433291}
   animator: {fileID: 959433292}
+  backgroundMusic: {fileID: 0}
 --- !u!1 &1411100465
 GameObject:
   m_ObjectHideFlags: 0
@@ -87185,6 +87187,7 @@ GameObject:
   - component: {fileID: 1802857243}
   - component: {fileID: 1802857245}
   - component: {fileID: 1802857246}
+  - component: {fileID: 1802857247}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -87242,6 +87245,104 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1592210481}
   playerMovementScript: {fileID: 959433291}
   animator: {fileID: 959433292}
+  backgroundMusic: {fileID: 1802857247}
+--- !u!82 &1802857247
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802857241}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: be58021b6cd03624da03ff88a8c128f9, type: 3}
+  m_Resource: {fileID: 8300000, guid: be58021b6cd03624da03ff88a8c128f9, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.04
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1807673381 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3204085080217915948, guid: 76e4e1a88d038f74597d334cad7b2f6d, type: 3}
@@ -89979,6 +90080,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1592210481}
   playerMovementScript: {fileID: 959433291}
   animator: {fileID: 959433292}
+  backgroundMusic: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
