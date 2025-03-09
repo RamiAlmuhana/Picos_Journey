@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class EnemyMoving : MonoBehaviour
 {
+    public enum MoveDirection { Vertical, Horizontal }
+
+    [SerializeField] private MoveDirection moveDirection = MoveDirection.Vertical;
     [SerializeField] private float moveDistance = 2.0f;
     [SerializeField] private float moveSpeed = 2.0f;
     [SerializeField] private float delay = 1.0f;
@@ -27,25 +30,34 @@ public class EnemyMoving : MonoBehaviour
     {
         isMoving = true;
 
-        // Beweeg omhoog
-        Vector3 upPosition = startPos + Vector3.up * moveDistance;
-        while (Vector3.Distance(transform.position, upPosition) > 0.01f)
+        Vector3 targetPosition;
+        if (moveDirection == MoveDirection.Vertical)
         {
-            transform.position = Vector3.MoveTowards(transform.position, upPosition, moveSpeed * Time.deltaTime);
+            targetPosition = startPos + Vector3.up * moveDistance;
+        }
+        else
+        {
+            targetPosition = startPos + Vector3.right * moveDistance;
+        }
+
+        // Beweeg naar de target positie
+        while (Vector3.Distance(transform.position, targetPosition) > 0.01f)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
             yield return null;
         }
 
-        // Wacht boven
+        // Wacht boven/in uiterste positie
         yield return new WaitForSeconds(delay);
 
-        // Beweeg naar beneden
+        // Beweeg terug naar de startpositie
         while (Vector3.Distance(transform.position, startPos) > 0.01f)
         {
             transform.position = Vector3.MoveTowards(transform.position, startPos, moveSpeed * Time.deltaTime);
             yield return null;
         }
 
-        // Wacht beneden
+        // Wacht in de startpositie
         yield return new WaitForSeconds(delay);
 
         isMoving = false;
