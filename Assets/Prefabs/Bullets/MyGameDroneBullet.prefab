@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 513374112478351465}
   - component: {fileID: 2278708974801297004}
   - component: {fileID: 3790033359318371744}
-  - component: {fileID: 7366902512075467160}
   - component: {fileID: 5193148615494951583}
+  - component: {fileID: 5020073420601095101}
+  - component: {fileID: -5168380730340376027}
   m_Layer: 0
-  m_Name: DroneBullet
+  m_Name: MyGameDroneBullet
   m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117,20 +118,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &7366902512075467160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7353890371047536637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7491533b55924b619365416486557827, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  force: 10
-  damage: 10
 --- !u!60 &5193148615494951583
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -182,3 +169,29 @@ PolygonCollider2D:
       - {x: 0.26, y: -0.03}
       - {x: 0.26, y: 0.03}
   m_UseDelaunayMesh: 0
+--- !u!114 &5020073420601095101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7353890371047536637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34e360b080a07e47899ec14b8180e9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-5168380730340376027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7353890371047536637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff22d7709c6b4644d85b101e3fafdbde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 10
+  damage: 10
