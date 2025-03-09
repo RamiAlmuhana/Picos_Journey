@@ -45,6 +45,20 @@ public class MainMenu : MonoBehaviour
     public void Level6()
     {
         SceneManager.LoadScene("Level6");
+    }    
+    public void MyGameLevel1()
+    {
+        SceneManager.LoadScene("MyGameLevel1");
+    }
+    
+    public void MyGameLevel2()
+    {
+        SceneManager.LoadScene("MyGameLevel2");
+    }
+    
+    public void MyGameLevel3()
+    {
+        SceneManager.LoadScene("MyGameLevel3");
     }
     
     public void BackButton()
